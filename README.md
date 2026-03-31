@@ -5,7 +5,10 @@ Google Ads CLI and docs-to-skills workspace.
 ## What is here
 
 - `gads docs sync` pulls official Google Ads API discovery and docs metadata into local JSON artifacts
+- `gads docs search/show` lets you inspect the normalized docs catalog locally
 - `gads api invoke <operation-id>` provides a raw CLI surface for discovery-backed methods
+- `gads fields search/get` provides thin helpers for the Google Ads Fields surface
+- `gads skills list/show` exposes the topic-skill manifest for Codex and Claude Code
 - `skills/` contains topic-based Google Ads skills for Codex and Claude Code
 - `docs/research/` contains the current coverage baseline and acceptance math
 
@@ -23,6 +26,9 @@ pnpm install
 pnpm test
 pnpm typecheck
 pnpm exec tsx packages/cli/src/index.ts docs sync --version v22 --out-dir generated/google-ads/v22
+pnpm exec tsx packages/cli/src/index.ts docs search --catalog generated/google-ads/v22/docs-catalog.json --topic campaigns --query create
+pnpm exec tsx packages/cli/src/index.ts skills show google-ads-auth --manifest skills/skills-manifest.json
+pnpm exec tsx packages/cli/src/index.ts fields search --catalog generated/google-ads/v22/operations.json --access-token YOUR_ACCESS_TOKEN --developer-token YOUR_DEVELOPER_TOKEN --query "SELECT name WHERE name LIKE 'campaign.%'" --dry-run
 pnpm exec tsx packages/cli/src/index.ts api invoke customers.campaigns.mutate \
   --catalog generated/google-ads/v22/operations.json \
   --access-token YOUR_ACCESS_TOKEN \

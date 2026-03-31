@@ -1,0 +1,100 @@
+{
+  "generated_at": "2026-03-31",
+  "source_files": [
+    "docs/research/google-ads-capability-baseline.md",
+    "docs/research/google-ads-capability-baseline.json"
+  ],
+  "skills": [
+    {
+      "name": "google-ads-auth",
+      "description": "Use when working with Google Ads API authentication, developer tokens, OAuth flows, service accounts, access models, or first-call setup problems.",
+      "docs_range": ["api-policy", "oauth", "client-libs", "get-started", "concepts"],
+      "page_count": 25,
+      "source_skill_path": "skills/google-ads-auth/SKILL.md"
+    },
+    {
+      "name": "google-ads-query",
+      "description": "Use when writing GAQL, exploring reporting queries, debugging Google Ads search or searchStream usage, or working with change history reporting.",
+      "docs_range": ["query", "reporting", "change-event", "change-status"],
+      "page_count": 19,
+      "source_skill_path": "skills/google-ads-query/SKILL.md"
+    },
+    {
+      "name": "google-ads-mutate",
+      "description": "Use when creating, updating, removing, or bulk-mutating Google Ads resources, including partial failures, temporary IDs, and batch jobs.",
+      "docs_range": ["mutating", "batch-processing"],
+      "page_count": 9,
+      "source_skill_path": "skills/google-ads-mutate/SKILL.md"
+    },
+    {
+      "name": "google-ads-campaigns",
+      "description": "Use when building or debugging Google Ads campaign setup across search, demand gen, responsive, shopping, dynamic, video, or smart campaign workflows.",
+      "docs_range": ["campaigns", "app-campaigns", "smart-campaigns", "demand-gen", "responsive-search-ads", "responsive-display-ads", "shopping-ads", "dynamic-search-ads", "dynamic-remarketing", "campaign-drafts", "ads", "video"],
+      "page_count": 77,
+      "source_skill_path": "skills/google-ads-campaigns/SKILL.md"
+    },
+    {
+      "name": "google-ads-experiments",
+      "description": "Use when working with Google Ads experiments, experiment arms, promotion, graduation, async errors, or experiment reporting.",
+      "docs_range": ["experiments"],
+      "page_count": 6,
+      "source_skill_path": "skills/google-ads-experiments/SKILL.md"
+    },
+    {
+      "name": "google-ads-conversions",
+      "description": "Use when setting up or debugging Google Ads conversions, uploads, adjustments, billing, bid simulations, or reach forecasting.",
+      "docs_range": ["conversions", "billing", "bid-simulations", "reach-forecasting"],
+      "page_count": 30,
+      "source_skill_path": "skills/google-ads-conversions/SKILL.md"
+    },
+    {
+      "name": "google-ads-assets",
+      "description": "Use when working with Google Ads assets, asset generation, upload ads, creative assets, or asset troubleshooting.",
+      "docs_range": ["assets", "display-upload-ads", "generative-asset-creation"],
+      "page_count": 14,
+      "source_skill_path": "skills/google-ads-assets/SKILL.md"
+    },
+    {
+      "name": "google-ads-account-management",
+      "description": "Use when creating, linking, listing, or managing Google Ads accounts, hierarchies, invitations, users, or manager relationships.",
+      "docs_range": ["account-management"],
+      "page_count": 10,
+      "source_skill_path": "skills/google-ads-account-management/SKILL.md"
+    },
+    {
+      "name": "google-ads-planning",
+      "description": "Use when working with keyword planning, targeting, audience insights, forecasts, or Google Ads developer toolkit workflows.",
+      "docs_range": ["keyword-planning", "targeting", "insights", "developer-toolkit"],
+      "page_count": 20,
+      "source_skill_path": "skills/google-ads-planning/SKILL.md"
+    },
+    {
+      "name": "google-ads-productionize",
+      "description": "Use when preparing Google Ads API integrations for production, including monitoring, logging, security, quota posture, release tracking, and upgrades.",
+      "docs_range": ["productionize", "release-notes", "upgrade"],
+      "page_count": 11,
+      "source_skill_path": "skills/google-ads-productionize/SKILL.md"
+    },
+    {
+      "name": "google-ads-troubleshooting",
+      "description": "Use when debugging Google Ads API errors, policy exemptions, quotas, partial failures, warnings, test accounts, or common integration mistakes.",
+      "docs_range": ["best-practices", "policy-exemption"],
+      "page_count": 15,
+      "source_skill_path": "skills/google-ads-troubleshooting/SKILL.md"
+    },
+    {
+      "name": "google-ads-remarketing",
+      "description": "Use when implementing or debugging Google Ads remarketing, user lists, audiences, dynamic remarketing, or related list and membership workflows.",
+      "docs_range": ["remarketing"],
+      "page_count": 15,
+      "source_skill_path": "skills/google-ads-remarketing/SKILL.md"
+    },
+    {
+      "name": "google-ads-verticals",
+      "description": "Use when working with Google Ads vertical workflows like hotel ads, things to do ads, or recommendation-specific product flows.",
+      "docs_range": ["hotel-ads", "things-to-do-ads", "recommendations"],
+      "page_count": 18,
+      "source_skill_path": "skills/google-ads-verticals/SKILL.md"
+    }
+  ]
+}
