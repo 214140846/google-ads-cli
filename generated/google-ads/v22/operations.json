@@ -1,0 +1,812 @@
+[
+  {
+    "operationId": "audienceInsights.listInsightsEligibleDates",
+    "httpMethod": "POST",
+    "path": "v22/audienceInsights:listInsightsEligibleDates"
+  },
+  {
+    "operationId": "customers.accountBudgetProposals.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/accountBudgetProposals:mutate"
+  },
+  {
+    "operationId": "customers.accountLinks.create",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/accountLinks:create"
+  },
+  {
+    "operationId": "customers.accountLinks.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/accountLinks:mutate"
+  },
+  {
+    "operationId": "customers.adGroupAdLabels.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/adGroupAdLabels:mutate"
+  },
+  {
+    "operationId": "customers.adGroupAds.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/adGroupAds:mutate"
+  },
+  {
+    "operationId": "customers.adGroupAds.removeAutomaticallyCreatedAssets",
+    "httpMethod": "POST",
+    "path": "v22/{+adGroupAd}:removeAutomaticallyCreatedAssets"
+  },
+  {
+    "operationId": "customers.adGroupAssets.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/adGroupAssets:mutate"
+  },
+  {
+    "operationId": "customers.adGroupAssetSets.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/adGroupAssetSets:mutate"
+  },
+  {
+    "operationId": "customers.adGroupBidModifiers.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/adGroupBidModifiers:mutate"
+  },
+  {
+    "operationId": "customers.adGroupCriteria.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/adGroupCriteria:mutate"
+  },
+  {
+    "operationId": "customers.AdGroupCriterionCustomizers.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/AdGroupCriterionCustomizers:mutate"
+  },
+  {
+    "operationId": "customers.adGroupCriterionLabels.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/adGroupCriterionLabels:mutate"
+  },
+  {
+    "operationId": "customers.adGroupCustomizers.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/adGroupCustomizers:mutate"
+  },
+  {
+    "operationId": "customers.adGroupLabels.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/adGroupLabels:mutate"
+  },
+  {
+    "operationId": "customers.adGroups.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/adGroups:mutate"
+  },
+  {
+    "operationId": "customers.adParameters.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/adParameters:mutate"
+  },
+  {
+    "operationId": "customers.ads.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/ads:mutate"
+  },
+  {
+    "operationId": "customers.assetGenerations.generateImages",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/assetGenerations:generateImages"
+  },
+  {
+    "operationId": "customers.assetGenerations.generateText",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/assetGenerations:generateText"
+  },
+  {
+    "operationId": "customers.assetGroupAssets.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/assetGroupAssets:mutate"
+  },
+  {
+    "operationId": "customers.assetGroupListingGroupFilters.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/assetGroupListingGroupFilters:mutate"
+  },
+  {
+    "operationId": "customers.assetGroups.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/assetGroups:mutate"
+  },
+  {
+    "operationId": "customers.assetGroupSignals.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/assetGroupSignals:mutate"
+  },
+  {
+    "operationId": "customers.assets.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/assets:mutate"
+  },
+  {
+    "operationId": "customers.assetSetAssets.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/assetSetAssets:mutate"
+  },
+  {
+    "operationId": "customers.assetSets.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/assetSets:mutate"
+  },
+  {
+    "operationId": "customers.audiences.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/audiences:mutate"
+  },
+  {
+    "operationId": "customers.batchJobs.addOperations",
+    "httpMethod": "POST",
+    "path": "v22/{+resourceName}:addOperations"
+  },
+  {
+    "operationId": "customers.batchJobs.listResults",
+    "httpMethod": "GET",
+    "path": "v22/{+resourceName}:listResults"
+  },
+  {
+    "operationId": "customers.batchJobs.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/batchJobs:mutate"
+  },
+  {
+    "operationId": "customers.batchJobs.run",
+    "httpMethod": "POST",
+    "path": "v22/{+resourceName}:run"
+  },
+  {
+    "operationId": "customers.biddingDataExclusions.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/biddingDataExclusions:mutate"
+  },
+  {
+    "operationId": "customers.biddingSeasonalityAdjustments.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/biddingSeasonalityAdjustments:mutate"
+  },
+  {
+    "operationId": "customers.biddingStrategies.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/biddingStrategies:mutate"
+  },
+  {
+    "operationId": "customers.billingSetups.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/billingSetups:mutate"
+  },
+  {
+    "operationId": "customers.campaignAssets.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/campaignAssets:mutate"
+  },
+  {
+    "operationId": "customers.campaignAssetSets.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/campaignAssetSets:mutate"
+  },
+  {
+    "operationId": "customers.campaignBidModifiers.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/campaignBidModifiers:mutate"
+  },
+  {
+    "operationId": "customers.campaignBudgets.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/campaignBudgets:mutate"
+  },
+  {
+    "operationId": "customers.campaignConversionGoals.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/campaignConversionGoals:mutate"
+  },
+  {
+    "operationId": "customers.campaignCriteria.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/campaignCriteria:mutate"
+  },
+  {
+    "operationId": "customers.campaignCustomizers.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/campaignCustomizers:mutate"
+  },
+  {
+    "operationId": "customers.campaignDrafts.listAsyncErrors",
+    "httpMethod": "GET",
+    "path": "v22/{+resourceName}:listAsyncErrors"
+  },
+  {
+    "operationId": "customers.campaignDrafts.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/campaignDrafts:mutate"
+  },
+  {
+    "operationId": "customers.campaignDrafts.promote",
+    "httpMethod": "POST",
+    "path": "v22/{+campaignDraft}:promote"
+  },
+  {
+    "operationId": "customers.CampaignGoalConfigs.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/CampaignGoalConfigs:mutate"
+  },
+  {
+    "operationId": "customers.campaignGroups.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/campaignGroups:mutate"
+  },
+  {
+    "operationId": "customers.campaignLabels.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/campaignLabels:mutate"
+  },
+  {
+    "operationId": "customers.campaignLifecycleGoal.configureCampaignLifecycleGoals",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/campaignLifecycleGoal:configureCampaignLifecycleGoals"
+  },
+  {
+    "operationId": "customers.campaigns.enablePMaxBrandGuidelines",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/campaigns:enablePMaxBrandGuidelines"
+  },
+  {
+    "operationId": "customers.campaigns.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/campaigns:mutate"
+  },
+  {
+    "operationId": "customers.campaignSharedSets.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/campaignSharedSets:mutate"
+  },
+  {
+    "operationId": "customers.conversionActions.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/conversionActions:mutate"
+  },
+  {
+    "operationId": "customers.conversionCustomVariables.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/conversionCustomVariables:mutate"
+  },
+  {
+    "operationId": "customers.conversionGoalCampaignConfigs.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/conversionGoalCampaignConfigs:mutate"
+  },
+  {
+    "operationId": "customers.conversionValueRules.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/conversionValueRules:mutate"
+  },
+  {
+    "operationId": "customers.conversionValueRuleSets.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/conversionValueRuleSets:mutate"
+  },
+  {
+    "operationId": "customers.createCustomerClient",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}:createCustomerClient"
+  },
+  {
+    "operationId": "customers.customAudiences.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/customAudiences:mutate"
+  },
+  {
+    "operationId": "customers.customConversionGoals.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/customConversionGoals:mutate"
+  },
+  {
+    "operationId": "customers.customerAssets.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/customerAssets:mutate"
+  },
+  {
+    "operationId": "customers.customerAssetSets.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/customerAssetSets:mutate"
+  },
+  {
+    "operationId": "customers.customerClientLinks.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/customerClientLinks:mutate"
+  },
+  {
+    "operationId": "customers.customerConversionGoals.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/customerConversionGoals:mutate"
+  },
+  {
+    "operationId": "customers.CustomerCustomizers.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/CustomerCustomizers:mutate"
+  },
+  {
+    "operationId": "customers.customerLabels.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/customerLabels:mutate"
+  },
+  {
+    "operationId": "customers.customerLifecycleGoal.configureCustomerLifecycleGoals",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/customerLifecycleGoal:configureCustomerLifecycleGoals"
+  },
+  {
+    "operationId": "customers.customerManagerLinks.moveManagerLink",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/customerManagerLinks:moveManagerLink"
+  },
+  {
+    "operationId": "customers.customerManagerLinks.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/customerManagerLinks:mutate"
+  },
+  {
+    "operationId": "customers.customerNegativeCriteria.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/customerNegativeCriteria:mutate"
+  },
+  {
+    "operationId": "customers.customerSkAdNetworkConversionValueSchemas.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/customerSkAdNetworkConversionValueSchemas:mutate"
+  },
+  {
+    "operationId": "customers.customerUserAccesses.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/customerUserAccesses:mutate"
+  },
+  {
+    "operationId": "customers.customerUserAccessInvitations.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/customerUserAccessInvitations:mutate"
+  },
+  {
+    "operationId": "customers.customInterests.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/customInterests:mutate"
+  },
+  {
+    "operationId": "customers.customizerAttributes.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/customizerAttributes:mutate"
+  },
+  {
+    "operationId": "customers.dataLinks.create",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/dataLinks:create"
+  },
+  {
+    "operationId": "customers.dataLinks.remove",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/dataLinks:remove"
+  },
+  {
+    "operationId": "customers.dataLinks.update",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/dataLinks:update"
+  },
+  {
+    "operationId": "customers.experimentArms.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/experimentArms:mutate"
+  },
+  {
+    "operationId": "customers.experiments.endExperiment",
+    "httpMethod": "POST",
+    "path": "v22/{+experiment}:endExperiment"
+  },
+  {
+    "operationId": "customers.experiments.graduateExperiment",
+    "httpMethod": "POST",
+    "path": "v22/{+experiment}:graduateExperiment"
+  },
+  {
+    "operationId": "customers.experiments.listExperimentAsyncErrors",
+    "httpMethod": "GET",
+    "path": "v22/{+resourceName}:listExperimentAsyncErrors"
+  },
+  {
+    "operationId": "customers.experiments.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/experiments:mutate"
+  },
+  {
+    "operationId": "customers.experiments.promoteExperiment",
+    "httpMethod": "POST",
+    "path": "v22/{+resourceName}:promoteExperiment"
+  },
+  {
+    "operationId": "customers.experiments.scheduleExperiment",
+    "httpMethod": "POST",
+    "path": "v22/{+resourceName}:scheduleExperiment"
+  },
+  {
+    "operationId": "customers.generateAdGroupThemes",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}:generateAdGroupThemes"
+  },
+  {
+    "operationId": "customers.generateAudienceCompositionInsights",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}:generateAudienceCompositionInsights"
+  },
+  {
+    "operationId": "customers.generateAudienceOverlapInsights",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}:generateAudienceOverlapInsights"
+  },
+  {
+    "operationId": "customers.generateCreatorInsights",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}:generateCreatorInsights"
+  },
+  {
+    "operationId": "customers.generateInsightsFinderReport",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}:generateInsightsFinderReport"
+  },
+  {
+    "operationId": "customers.generateKeywordForecastMetrics",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}:generateKeywordForecastMetrics"
+  },
+  {
+    "operationId": "customers.generateKeywordHistoricalMetrics",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}:generateKeywordHistoricalMetrics"
+  },
+  {
+    "operationId": "customers.generateKeywordIdeas",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}:generateKeywordIdeas"
+  },
+  {
+    "operationId": "customers.generateReachForecast",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}:generateReachForecast"
+  },
+  {
+    "operationId": "customers.generateShareablePreviews",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}:generateShareablePreviews"
+  },
+  {
+    "operationId": "customers.generateSuggestedTargetingInsights",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}:generateSuggestedTargetingInsights"
+  },
+  {
+    "operationId": "customers.generateTargetingSuggestionMetrics",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}:generateTargetingSuggestionMetrics"
+  },
+  {
+    "operationId": "customers.generateTrendingInsights",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}:generateTrendingInsights"
+  },
+  {
+    "operationId": "customers.getIdentityVerification",
+    "httpMethod": "GET",
+    "path": "v22/customers/{+customerId}/getIdentityVerification"
+  },
+  {
+    "operationId": "customers.Goals.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/Goals:mutate"
+  },
+  {
+    "operationId": "customers.googleAds.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/googleAds:mutate"
+  },
+  {
+    "operationId": "customers.googleAds.search",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/googleAds:search"
+  },
+  {
+    "operationId": "customers.googleAds.searchStream",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/googleAds:searchStream"
+  },
+  {
+    "operationId": "customers.invoices.list",
+    "httpMethod": "GET",
+    "path": "v22/customers/{+customerId}/invoices"
+  },
+  {
+    "operationId": "customers.keywordPlanAdGroupKeywords.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/keywordPlanAdGroupKeywords:mutate"
+  },
+  {
+    "operationId": "customers.keywordPlanAdGroups.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/keywordPlanAdGroups:mutate"
+  },
+  {
+    "operationId": "customers.keywordPlanCampaignKeywords.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/keywordPlanCampaignKeywords:mutate"
+  },
+  {
+    "operationId": "customers.keywordPlanCampaigns.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/keywordPlanCampaigns:mutate"
+  },
+  {
+    "operationId": "customers.keywordPlans.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/keywordPlans:mutate"
+  },
+  {
+    "operationId": "customers.labels.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/labels:mutate"
+  },
+  {
+    "operationId": "customers.listAccessibleCustomers",
+    "httpMethod": "GET",
+    "path": "v22/customers:listAccessibleCustomers"
+  },
+  {
+    "operationId": "customers.localServices.appendLeadConversation",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/localServices:appendLeadConversation"
+  },
+  {
+    "operationId": "customers.localServicesLeads.provideLeadFeedback",
+    "httpMethod": "POST",
+    "path": "v22/{+resourceName}:provideLeadFeedback"
+  },
+  {
+    "operationId": "customers.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}:mutate"
+  },
+  {
+    "operationId": "customers.offlineUserDataJobs.addOperations",
+    "httpMethod": "POST",
+    "path": "v22/{+resourceName}:addOperations"
+  },
+  {
+    "operationId": "customers.offlineUserDataJobs.create",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/offlineUserDataJobs:create"
+  },
+  {
+    "operationId": "customers.offlineUserDataJobs.run",
+    "httpMethod": "POST",
+    "path": "v22/{+resourceName}:run"
+  },
+  {
+    "operationId": "customers.operations.cancel",
+    "httpMethod": "POST",
+    "path": "v22/{+name}:cancel"
+  },
+  {
+    "operationId": "customers.operations.delete",
+    "httpMethod": "DELETE",
+    "path": "v22/{+name}"
+  },
+  {
+    "operationId": "customers.operations.get",
+    "httpMethod": "GET",
+    "path": "v22/{+name}"
+  },
+  {
+    "operationId": "customers.operations.list",
+    "httpMethod": "GET",
+    "path": "v22/{+name}"
+  },
+  {
+    "operationId": "customers.operations.wait",
+    "httpMethod": "POST",
+    "path": "v22/{+name}:wait"
+  },
+  {
+    "operationId": "customers.paymentsAccounts.list",
+    "httpMethod": "GET",
+    "path": "v22/customers/{+customerId}/paymentsAccounts"
+  },
+  {
+    "operationId": "customers.productLinkInvitations.create",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/productLinkInvitations:create"
+  },
+  {
+    "operationId": "customers.productLinkInvitations.remove",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/productLinkInvitations:remove"
+  },
+  {
+    "operationId": "customers.productLinkInvitations.update",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/productLinkInvitations:update"
+  },
+  {
+    "operationId": "customers.productLinks.create",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/productLinks:create"
+  },
+  {
+    "operationId": "customers.productLinks.remove",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/productLinks:remove"
+  },
+  {
+    "operationId": "customers.recommendations.apply",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/recommendations:apply"
+  },
+  {
+    "operationId": "customers.recommendations.dismiss",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/recommendations:dismiss"
+  },
+  {
+    "operationId": "customers.recommendations.generate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/recommendations:generate"
+  },
+  {
+    "operationId": "customers.recommendationSubscriptions.mutateRecommendationSubscription",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/recommendationSubscriptions:mutateRecommendationSubscription"
+  },
+  {
+    "operationId": "customers.remarketingActions.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/remarketingActions:mutate"
+  },
+  {
+    "operationId": "customers.removeCampaignAutomaticallyCreatedAsset",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}:removeCampaignAutomaticallyCreatedAsset"
+  },
+  {
+    "operationId": "customers.searchAudienceInsightsAttributes",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}:searchAudienceInsightsAttributes"
+  },
+  {
+    "operationId": "customers.sharedCriteria.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/sharedCriteria:mutate"
+  },
+  {
+    "operationId": "customers.sharedSets.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/sharedSets:mutate"
+  },
+  {
+    "operationId": "customers.smartCampaignSettings.getSmartCampaignStatus",
+    "httpMethod": "GET",
+    "path": "v22/{+resourceName}:getSmartCampaignStatus"
+  },
+  {
+    "operationId": "customers.smartCampaignSettings.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/smartCampaignSettings:mutate"
+  },
+  {
+    "operationId": "customers.startIdentityVerification",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}:startIdentityVerification"
+  },
+  {
+    "operationId": "customers.suggestBrands",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}:suggestBrands"
+  },
+  {
+    "operationId": "customers.suggestKeywordThemes",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}:suggestKeywordThemes"
+  },
+  {
+    "operationId": "customers.suggestSmartCampaignAd",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}:suggestSmartCampaignAd"
+  },
+  {
+    "operationId": "customers.suggestSmartCampaignBudgetOptions",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}:suggestSmartCampaignBudgetOptions"
+  },
+  {
+    "operationId": "customers.suggestTravelAssets",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}:suggestTravelAssets"
+  },
+  {
+    "operationId": "customers.thirdPartyAppAnalyticsLinks.regenerateShareableLinkId",
+    "httpMethod": "POST",
+    "path": "v22/{+resourceName}:regenerateShareableLinkId"
+  },
+  {
+    "operationId": "customers.uploadCallConversions",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}:uploadCallConversions"
+  },
+  {
+    "operationId": "customers.uploadClickConversions",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}:uploadClickConversions"
+  },
+  {
+    "operationId": "customers.uploadConversionAdjustments",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}:uploadConversionAdjustments"
+  },
+  {
+    "operationId": "customers.uploadUserData",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}:uploadUserData"
+  },
+  {
+    "operationId": "customers.userListCustomerTypes.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/userListCustomerTypes:mutate"
+  },
+  {
+    "operationId": "customers.userLists.mutate",
+    "httpMethod": "POST",
+    "path": "v22/customers/{+customerId}/userLists:mutate"
+  },
+  {
+    "operationId": "geoTargetConstants.suggest",
+    "httpMethod": "POST",
+    "path": "v22/geoTargetConstants:suggest"
+  },
+  {
+    "operationId": "googleAdsFields.get",
+    "httpMethod": "GET",
+    "path": "v22/{+resourceName}"
+  },
+  {
+    "operationId": "googleAdsFields.search",
+    "httpMethod": "POST",
+    "path": "v22/googleAdsFields:search"
+  },
+  {
+    "operationId": "keywordThemeConstants.suggest",
+    "httpMethod": "POST",
+    "path": "v22/keywordThemeConstants:suggest"
+  },
+  {
+    "operationId": "v22.generateConversionRates",
+    "httpMethod": "POST",
+    "path": "v22:generateConversionRates"
+  },
+  {
+    "operationId": "v22.listPlannableLocations",
+    "httpMethod": "POST",
+    "path": "v22:listPlannableLocations"
+  },
+  {
+    "operationId": "v22.listPlannableProducts",
+    "httpMethod": "POST",
+    "path": "v22:listPlannableProducts"
+  },
+  {
+    "operationId": "v22.listPlannableUserInterests",
+    "httpMethod": "POST",
+    "path": "v22:listPlannableUserInterests"
+  },
+  {
+    "operationId": "v22.listPlannableUserLists",
+    "httpMethod": "POST",
+    "path": "v22:listPlannableUserLists"
+  }
+]

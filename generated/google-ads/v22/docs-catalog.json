@@ -1,0 +1,1472 @@
+[
+  {
+    "path": "/google-ads/api/docs/account-management/advertiser-identity-verification",
+    "topic": "account-management",
+    "url": "https://developers.google.com/google-ads/api/docs/account-management/advertiser-identity-verification"
+  },
+  {
+    "path": "/google-ads/api/docs/account-management/create-account",
+    "topic": "account-management",
+    "url": "https://developers.google.com/google-ads/api/docs/account-management/create-account"
+  },
+  {
+    "path": "/google-ads/api/docs/account-management/get-account-hierarchy",
+    "topic": "account-management",
+    "url": "https://developers.google.com/google-ads/api/docs/account-management/get-account-hierarchy"
+  },
+  {
+    "path": "/google-ads/api/docs/account-management/linking-manager-accounts",
+    "topic": "account-management",
+    "url": "https://developers.google.com/google-ads/api/docs/account-management/linking-manager-accounts"
+  },
+  {
+    "path": "/google-ads/api/docs/account-management/linking-product-accounts",
+    "topic": "account-management",
+    "url": "https://developers.google.com/google-ads/api/docs/account-management/linking-product-accounts"
+  },
+  {
+    "path": "/google-ads/api/docs/account-management/linking-youtube",
+    "topic": "account-management",
+    "url": "https://developers.google.com/google-ads/api/docs/account-management/linking-youtube"
+  },
+  {
+    "path": "/google-ads/api/docs/account-management/listing-accounts",
+    "topic": "account-management",
+    "url": "https://developers.google.com/google-ads/api/docs/account-management/listing-accounts"
+  },
+  {
+    "path": "/google-ads/api/docs/account-management/managing-invitations",
+    "topic": "account-management",
+    "url": "https://developers.google.com/google-ads/api/docs/account-management/managing-invitations"
+  },
+  {
+    "path": "/google-ads/api/docs/account-management/managing-users",
+    "topic": "account-management",
+    "url": "https://developers.google.com/google-ads/api/docs/account-management/managing-users"
+  },
+  {
+    "path": "/google-ads/api/docs/account-management/overview",
+    "topic": "account-management",
+    "url": "https://developers.google.com/google-ads/api/docs/account-management/overview"
+  },
+  {
+    "path": "/google-ads/api/docs/ads/ad-types",
+    "topic": "ads",
+    "url": "https://developers.google.com/google-ads/api/docs/ads/ad-types"
+  },
+  {
+    "path": "/google-ads/api/docs/ads/customize-responsive-search-ads",
+    "topic": "ads",
+    "url": "https://developers.google.com/google-ads/api/docs/ads/customize-responsive-search-ads"
+  },
+  {
+    "path": "/google-ads/api/docs/ads/mutate-ads",
+    "topic": "ads",
+    "url": "https://developers.google.com/google-ads/api/docs/ads/mutate-ads"
+  },
+  {
+    "path": "/google-ads/api/docs/ads/overview",
+    "topic": "ads",
+    "url": "https://developers.google.com/google-ads/api/docs/ads/overview"
+  },
+  {
+    "path": "/google-ads/api/docs/ads/upgraded-urls/fields",
+    "topic": "ads",
+    "url": "https://developers.google.com/google-ads/api/docs/ads/upgraded-urls/fields"
+  },
+  {
+    "path": "/google-ads/api/docs/ads/upgraded-urls/overview",
+    "topic": "ads",
+    "url": "https://developers.google.com/google-ads/api/docs/ads/upgraded-urls/overview"
+  },
+  {
+    "path": "/google-ads/api/docs/ads/upgraded-urls/reports",
+    "topic": "ads",
+    "url": "https://developers.google.com/google-ads/api/docs/ads/upgraded-urls/reports"
+  },
+  {
+    "path": "/google-ads/api/docs/ads/upgraded-urls/serving-url-rules",
+    "topic": "ads",
+    "url": "https://developers.google.com/google-ads/api/docs/ads/upgraded-urls/serving-url-rules"
+  },
+  {
+    "path": "/google-ads/api/docs/ads/upgraded-urls/supported-entities",
+    "topic": "ads",
+    "url": "https://developers.google.com/google-ads/api/docs/ads/upgraded-urls/supported-entities"
+  },
+  {
+    "path": "/google-ads/api/docs/ads/upgraded-urls/value-track",
+    "topic": "ads",
+    "url": "https://developers.google.com/google-ads/api/docs/ads/upgraded-urls/value-track"
+  },
+  {
+    "path": "/google-ads/api/docs/api-policy/developer-token",
+    "topic": "api-policy",
+    "url": "https://developers.google.com/google-ads/api/docs/api-policy/developer-token"
+  },
+  {
+    "path": "/google-ads/api/docs/api-policy/developer-token?hl=pt-br",
+    "topic": "api-policy",
+    "url": "https://developers.google.com/google-ads/api/docs/api-policy/developer-token?hl=pt-br"
+  },
+  {
+    "path": "/google-ads/api/docs/app-campaigns/app-campaign-code-example",
+    "topic": "app-campaigns",
+    "url": "https://developers.google.com/google-ads/api/docs/app-campaigns/app-campaign-code-example"
+  },
+  {
+    "path": "/google-ads/api/docs/app-campaigns/create-ad-group",
+    "topic": "app-campaigns",
+    "url": "https://developers.google.com/google-ads/api/docs/app-campaigns/create-ad-group"
+  },
+  {
+    "path": "/google-ads/api/docs/app-campaigns/create-campaign",
+    "topic": "app-campaigns",
+    "url": "https://developers.google.com/google-ads/api/docs/app-campaigns/create-campaign"
+  },
+  {
+    "path": "/google-ads/api/docs/app-campaigns/overview",
+    "topic": "app-campaigns",
+    "url": "https://developers.google.com/google-ads/api/docs/app-campaigns/overview"
+  },
+  {
+    "path": "/google-ads/api/docs/app-campaigns/reporting",
+    "topic": "app-campaigns",
+    "url": "https://developers.google.com/google-ads/api/docs/app-campaigns/reporting"
+  },
+  {
+    "path": "/google-ads/api/docs/assets/asset-automation-settings",
+    "topic": "assets",
+    "url": "https://developers.google.com/google-ads/api/docs/assets/asset-automation-settings"
+  },
+  {
+    "path": "/google-ads/api/docs/assets/automated-assets",
+    "topic": "assets",
+    "url": "https://developers.google.com/google-ads/api/docs/assets/automated-assets"
+  },
+  {
+    "path": "/google-ads/api/docs/assets/business-message-assets",
+    "topic": "assets",
+    "url": "https://developers.google.com/google-ads/api/docs/assets/business-message-assets"
+  },
+  {
+    "path": "/google-ads/api/docs/assets/fetching-assets",
+    "topic": "assets",
+    "url": "https://developers.google.com/google-ads/api/docs/assets/fetching-assets"
+  },
+  {
+    "path": "/google-ads/api/docs/assets/location-assets",
+    "topic": "assets",
+    "url": "https://developers.google.com/google-ads/api/docs/assets/location-assets"
+  },
+  {
+    "path": "/google-ads/api/docs/assets/overview",
+    "topic": "assets",
+    "url": "https://developers.google.com/google-ads/api/docs/assets/overview"
+  },
+  {
+    "path": "/google-ads/api/docs/assets/upload-videos",
+    "topic": "assets",
+    "url": "https://developers.google.com/google-ads/api/docs/assets/upload-videos"
+  },
+  {
+    "path": "/google-ads/api/docs/assets/working-with-assets",
+    "topic": "assets",
+    "url": "https://developers.google.com/google-ads/api/docs/assets/working-with-assets"
+  },
+  {
+    "path": "/google-ads/api/docs/batch-processing/best-practices",
+    "topic": "batch-processing",
+    "url": "https://developers.google.com/google-ads/api/docs/batch-processing/best-practices"
+  },
+  {
+    "path": "/google-ads/api/docs/batch-processing/flow",
+    "topic": "batch-processing",
+    "url": "https://developers.google.com/google-ads/api/docs/batch-processing/flow"
+  },
+  {
+    "path": "/google-ads/api/docs/batch-processing/listing-groups",
+    "topic": "batch-processing",
+    "url": "https://developers.google.com/google-ads/api/docs/batch-processing/listing-groups"
+  },
+  {
+    "path": "/google-ads/api/docs/batch-processing/overview",
+    "topic": "batch-processing",
+    "url": "https://developers.google.com/google-ads/api/docs/batch-processing/overview"
+  },
+  {
+    "path": "/google-ads/api/docs/batch-processing/temporary-ids",
+    "topic": "batch-processing",
+    "url": "https://developers.google.com/google-ads/api/docs/batch-processing/temporary-ids"
+  },
+  {
+    "path": "/google-ads/api/docs/best-practices/common-errors",
+    "topic": "best-practices",
+    "url": "https://developers.google.com/google-ads/api/docs/best-practices/common-errors"
+  },
+  {
+    "path": "/google-ads/api/docs/best-practices/developer-token-reset",
+    "topic": "best-practices",
+    "url": "https://developers.google.com/google-ads/api/docs/best-practices/developer-token-reset"
+  },
+  {
+    "path": "/google-ads/api/docs/best-practices/error-types",
+    "topic": "best-practices",
+    "url": "https://developers.google.com/google-ads/api/docs/best-practices/error-types"
+  },
+  {
+    "path": "/google-ads/api/docs/best-practices/overview",
+    "topic": "best-practices",
+    "url": "https://developers.google.com/google-ads/api/docs/best-practices/overview"
+  },
+  {
+    "path": "/google-ads/api/docs/best-practices/partial-failures",
+    "topic": "best-practices",
+    "url": "https://developers.google.com/google-ads/api/docs/best-practices/partial-failures"
+  },
+  {
+    "path": "/google-ads/api/docs/best-practices/quotas",
+    "topic": "best-practices",
+    "url": "https://developers.google.com/google-ads/api/docs/best-practices/quotas"
+  },
+  {
+    "path": "/google-ads/api/docs/best-practices/system-limits",
+    "topic": "best-practices",
+    "url": "https://developers.google.com/google-ads/api/docs/best-practices/system-limits"
+  },
+  {
+    "path": "/google-ads/api/docs/best-practices/test-accounts",
+    "topic": "best-practices",
+    "url": "https://developers.google.com/google-ads/api/docs/best-practices/test-accounts"
+  },
+  {
+    "path": "/google-ads/api/docs/best-practices/testing",
+    "topic": "best-practices",
+    "url": "https://developers.google.com/google-ads/api/docs/best-practices/testing"
+  },
+  {
+    "path": "/google-ads/api/docs/best-practices/troubleshooting",
+    "topic": "best-practices",
+    "url": "https://developers.google.com/google-ads/api/docs/best-practices/troubleshooting"
+  },
+  {
+    "path": "/google-ads/api/docs/best-practices/understand-api-errors",
+    "topic": "best-practices",
+    "url": "https://developers.google.com/google-ads/api/docs/best-practices/understand-api-errors"
+  },
+  {
+    "path": "/google-ads/api/docs/best-practices/warnings",
+    "topic": "best-practices",
+    "url": "https://developers.google.com/google-ads/api/docs/best-practices/warnings"
+  },
+  {
+    "path": "/google-ads/api/docs/bid-simulations/overview",
+    "topic": "bid-simulations",
+    "url": "https://developers.google.com/google-ads/api/docs/bid-simulations/overview"
+  },
+  {
+    "path": "/google-ads/api/docs/bid-simulations/prerequisites",
+    "topic": "bid-simulations",
+    "url": "https://developers.google.com/google-ads/api/docs/bid-simulations/prerequisites"
+  },
+  {
+    "path": "/google-ads/api/docs/bid-simulations/retrieve-bid-simulations",
+    "topic": "bid-simulations",
+    "url": "https://developers.google.com/google-ads/api/docs/bid-simulations/retrieve-bid-simulations"
+  },
+  {
+    "path": "/google-ads/api/docs/billing/account-budgets",
+    "topic": "billing",
+    "url": "https://developers.google.com/google-ads/api/docs/billing/account-budgets"
+  },
+  {
+    "path": "/google-ads/api/docs/billing/billing-setups",
+    "topic": "billing",
+    "url": "https://developers.google.com/google-ads/api/docs/billing/billing-setups"
+  },
+  {
+    "path": "/google-ads/api/docs/billing/incentives",
+    "topic": "billing",
+    "url": "https://developers.google.com/google-ads/api/docs/billing/incentives"
+  },
+  {
+    "path": "/google-ads/api/docs/billing/invoice",
+    "topic": "billing",
+    "url": "https://developers.google.com/google-ads/api/docs/billing/invoice"
+  },
+  {
+    "path": "/google-ads/api/docs/billing/overview",
+    "topic": "billing",
+    "url": "https://developers.google.com/google-ads/api/docs/billing/overview"
+  },
+  {
+    "path": "/google-ads/api/docs/campaign-drafts",
+    "topic": "campaign-drafts",
+    "url": "https://developers.google.com/google-ads/api/docs/campaign-drafts"
+  },
+  {
+    "path": "/google-ads/api/docs/campaigns",
+    "topic": "campaigns",
+    "url": "https://developers.google.com/google-ads/api/docs/campaigns"
+  },
+  {
+    "path": "/google-ads/api/docs/campaigns/ai-max-for-search-campaigns/getting-started",
+    "topic": "campaigns",
+    "url": "https://developers.google.com/google-ads/api/docs/campaigns/ai-max-for-search-campaigns/getting-started"
+  },
+  {
+    "path": "/google-ads/api/docs/campaigns/ai-max-for-search-campaigns/vertical-ads-controls",
+    "topic": "campaigns",
+    "url": "https://developers.google.com/google-ads/api/docs/campaigns/ai-max-for-search-campaigns/vertical-ads-controls"
+  },
+  {
+    "path": "/google-ads/api/docs/campaigns/bidding/assign-strategies",
+    "topic": "campaigns",
+    "url": "https://developers.google.com/google-ads/api/docs/campaigns/bidding/assign-strategies"
+  },
+  {
+    "path": "/google-ads/api/docs/campaigns/bidding/cross-account-strategies",
+    "topic": "campaigns",
+    "url": "https://developers.google.com/google-ads/api/docs/campaigns/bidding/cross-account-strategies"
+  },
+  {
+    "path": "/google-ads/api/docs/campaigns/bidding/data-exclusions",
+    "topic": "campaigns",
+    "url": "https://developers.google.com/google-ads/api/docs/campaigns/bidding/data-exclusions"
+  },
+  {
+    "path": "/google-ads/api/docs/campaigns/bidding/manage-bid-modifiers",
+    "topic": "campaigns",
+    "url": "https://developers.google.com/google-ads/api/docs/campaigns/bidding/manage-bid-modifiers"
+  },
+  {
+    "path": "/google-ads/api/docs/campaigns/bidding/override-strategies",
+    "topic": "campaigns",
+    "url": "https://developers.google.com/google-ads/api/docs/campaigns/bidding/override-strategies"
+  },
+  {
+    "path": "/google-ads/api/docs/campaigns/bidding/overview",
+    "topic": "campaigns",
+    "url": "https://developers.google.com/google-ads/api/docs/campaigns/bidding/overview"
+  },
+  {
+    "path": "/google-ads/api/docs/campaigns/bidding/seasonality-adjustments",
+    "topic": "campaigns",
+    "url": "https://developers.google.com/google-ads/api/docs/campaigns/bidding/seasonality-adjustments"
+  },
+  {
+    "path": "/google-ads/api/docs/campaigns/bidding/set-bids",
+    "topic": "campaigns",
+    "url": "https://developers.google.com/google-ads/api/docs/campaigns/bidding/set-bids"
+  },
+  {
+    "path": "/google-ads/api/docs/campaigns/bidding/strategy-status",
+    "topic": "campaigns",
+    "url": "https://developers.google.com/google-ads/api/docs/campaigns/bidding/strategy-status"
+  },
+  {
+    "path": "/google-ads/api/docs/campaigns/bidding/strategy-types",
+    "topic": "campaigns",
+    "url": "https://developers.google.com/google-ads/api/docs/campaigns/bidding/strategy-types"
+  },
+  {
+    "path": "/google-ads/api/docs/campaigns/budgets/assign-budgets",
+    "topic": "campaigns",
+    "url": "https://developers.google.com/google-ads/api/docs/campaigns/budgets/assign-budgets"
+  },
+  {
+    "path": "/google-ads/api/docs/campaigns/budgets/create-budgets",
+    "topic": "campaigns",
+    "url": "https://developers.google.com/google-ads/api/docs/campaigns/budgets/create-budgets"
+  },
+  {
+    "path": "/google-ads/api/docs/campaigns/budgets/overview",
+    "topic": "campaigns",
+    "url": "https://developers.google.com/google-ads/api/docs/campaigns/budgets/overview"
+  },
+  {
+    "path": "/google-ads/api/docs/campaigns/budgets/remove-budgets",
+    "topic": "campaigns",
+    "url": "https://developers.google.com/google-ads/api/docs/campaigns/budgets/remove-budgets"
+  },
+  {
+    "path": "/google-ads/api/docs/campaigns/budgets/restrictions-errors",
+    "topic": "campaigns",
+    "url": "https://developers.google.com/google-ads/api/docs/campaigns/budgets/restrictions-errors"
+  },
+  {
+    "path": "/google-ads/api/docs/campaigns/budgets/share-budgets",
+    "topic": "campaigns",
+    "url": "https://developers.google.com/google-ads/api/docs/campaigns/budgets/share-budgets"
+  },
+  {
+    "path": "/google-ads/api/docs/campaigns/budgets/track-performance",
+    "topic": "campaigns",
+    "url": "https://developers.google.com/google-ads/api/docs/campaigns/budgets/track-performance"
+  },
+  {
+    "path": "/google-ads/api/docs/campaigns/create-ad-groups",
+    "topic": "campaigns",
+    "url": "https://developers.google.com/google-ads/api/docs/campaigns/create-ad-groups"
+  },
+  {
+    "path": "/google-ads/api/docs/campaigns/create-campaigns",
+    "topic": "campaigns",
+    "url": "https://developers.google.com/google-ads/api/docs/campaigns/create-campaigns"
+  },
+  {
+    "path": "/google-ads/api/docs/campaigns/local-service-campaigns",
+    "topic": "campaigns",
+    "url": "https://developers.google.com/google-ads/api/docs/campaigns/local-service-campaigns"
+  },
+  {
+    "path": "/google-ads/api/docs/campaigns/overview",
+    "topic": "campaigns",
+    "url": "https://developers.google.com/google-ads/api/docs/campaigns/overview"
+  },
+  {
+    "path": "/google-ads/api/docs/campaigns/search-campaigns/getting-started",
+    "topic": "campaigns",
+    "url": "https://developers.google.com/google-ads/api/docs/campaigns/search-campaigns/getting-started"
+  },
+  {
+    "path": "/google-ads/api/docs/change-event",
+    "topic": "change-event",
+    "url": "https://developers.google.com/google-ads/api/docs/change-event"
+  },
+  {
+    "path": "/google-ads/api/docs/change-status",
+    "topic": "change-status",
+    "url": "https://developers.google.com/google-ads/api/docs/change-status"
+  },
+  {
+    "path": "/google-ads/api/docs/client-libs",
+    "topic": "client-libs",
+    "url": "https://developers.google.com/google-ads/api/docs/client-libs"
+  },
+  {
+    "path": "/google-ads/api/docs/client-libs?hl=pt-br",
+    "topic": "client-libs?hl=pt-br",
+    "url": "https://developers.google.com/google-ads/api/docs/client-libs?hl=pt-br"
+  },
+  {
+    "path": "/google-ads/api/docs/concepts/api-structure",
+    "topic": "concepts",
+    "url": "https://developers.google.com/google-ads/api/docs/concepts/api-structure"
+  },
+  {
+    "path": "/google-ads/api/docs/concepts/call-structure",
+    "topic": "concepts",
+    "url": "https://developers.google.com/google-ads/api/docs/concepts/call-structure"
+  },
+  {
+    "path": "/google-ads/api/docs/concepts/changing-objects",
+    "topic": "concepts",
+    "url": "https://developers.google.com/google-ads/api/docs/concepts/changing-objects"
+  },
+  {
+    "path": "/google-ads/api/docs/concepts/field-service",
+    "topic": "concepts",
+    "url": "https://developers.google.com/google-ads/api/docs/concepts/field-service"
+  },
+  {
+    "path": "/google-ads/api/docs/concepts/no-developer-token",
+    "topic": "concepts",
+    "url": "https://developers.google.com/google-ads/api/docs/concepts/no-developer-token"
+  },
+  {
+    "path": "/google-ads/api/docs/concepts/overview",
+    "topic": "concepts",
+    "url": "https://developers.google.com/google-ads/api/docs/concepts/overview"
+  },
+  {
+    "path": "/google-ads/api/docs/concepts/retrieving-objects",
+    "topic": "concepts",
+    "url": "https://developers.google.com/google-ads/api/docs/concepts/retrieving-objects"
+  },
+  {
+    "path": "/google-ads/api/docs/concepts/versioning",
+    "topic": "concepts",
+    "url": "https://developers.google.com/google-ads/api/docs/concepts/versioning"
+  },
+  {
+    "path": "/google-ads/api/docs/conversions/categories",
+    "topic": "conversions",
+    "url": "https://developers.google.com/google-ads/api/docs/conversions/categories"
+  },
+  {
+    "path": "/google-ads/api/docs/conversions/conversion-custom-variables",
+    "topic": "conversions",
+    "url": "https://developers.google.com/google-ads/api/docs/conversions/conversion-custom-variables"
+  },
+  {
+    "path": "/google-ads/api/docs/conversions/conversion-value-rules",
+    "topic": "conversions",
+    "url": "https://developers.google.com/google-ads/api/docs/conversions/conversion-value-rules"
+  },
+  {
+    "path": "/google-ads/api/docs/conversions/getting-started",
+    "topic": "conversions",
+    "url": "https://developers.google.com/google-ads/api/docs/conversions/getting-started"
+  },
+  {
+    "path": "/google-ads/api/docs/conversions/goals/campaign-goals",
+    "topic": "conversions",
+    "url": "https://developers.google.com/google-ads/api/docs/conversions/goals/campaign-goals"
+  },
+  {
+    "path": "/google-ads/api/docs/conversions/goals/customer-goals",
+    "topic": "conversions",
+    "url": "https://developers.google.com/google-ads/api/docs/conversions/goals/customer-goals"
+  },
+  {
+    "path": "/google-ads/api/docs/conversions/goals/lifecycle-goals",
+    "topic": "conversions",
+    "url": "https://developers.google.com/google-ads/api/docs/conversions/goals/lifecycle-goals"
+  },
+  {
+    "path": "/google-ads/api/docs/conversions/goals/overview",
+    "topic": "conversions",
+    "url": "https://developers.google.com/google-ads/api/docs/conversions/goals/overview"
+  },
+  {
+    "path": "/google-ads/api/docs/conversions/overview",
+    "topic": "conversions",
+    "url": "https://developers.google.com/google-ads/api/docs/conversions/overview"
+  },
+  {
+    "path": "/google-ads/api/docs/conversions/reporting",
+    "topic": "conversions",
+    "url": "https://developers.google.com/google-ads/api/docs/conversions/reporting"
+  },
+  {
+    "path": "/google-ads/api/docs/conversions/troubleshooting",
+    "topic": "conversions",
+    "url": "https://developers.google.com/google-ads/api/docs/conversions/troubleshooting"
+  },
+  {
+    "path": "/google-ads/api/docs/conversions/upload-adjustments",
+    "topic": "conversions",
+    "url": "https://developers.google.com/google-ads/api/docs/conversions/upload-adjustments"
+  },
+  {
+    "path": "/google-ads/api/docs/conversions/upload-calls",
+    "topic": "conversions",
+    "url": "https://developers.google.com/google-ads/api/docs/conversions/upload-calls"
+  },
+  {
+    "path": "/google-ads/api/docs/conversions/upload-offline",
+    "topic": "conversions",
+    "url": "https://developers.google.com/google-ads/api/docs/conversions/upload-offline"
+  },
+  {
+    "path": "/google-ads/api/docs/conversions/upload-online",
+    "topic": "conversions",
+    "url": "https://developers.google.com/google-ads/api/docs/conversions/upload-online"
+  },
+  {
+    "path": "/google-ads/api/docs/conversions/upload-store-sales-transactions",
+    "topic": "conversions",
+    "url": "https://developers.google.com/google-ads/api/docs/conversions/upload-store-sales-transactions"
+  },
+  {
+    "path": "/google-ads/api/docs/conversions/upload-summaries",
+    "topic": "conversions",
+    "url": "https://developers.google.com/google-ads/api/docs/conversions/upload-summaries"
+  },
+  {
+    "path": "/google-ads/api/docs/demand-gen/audience-targeting",
+    "topic": "demand-gen",
+    "url": "https://developers.google.com/google-ads/api/docs/demand-gen/audience-targeting"
+  },
+  {
+    "path": "/google-ads/api/docs/demand-gen/channel-controls",
+    "topic": "demand-gen",
+    "url": "https://developers.google.com/google-ads/api/docs/demand-gen/channel-controls"
+  },
+  {
+    "path": "/google-ads/api/docs/demand-gen/create-campaign",
+    "topic": "demand-gen",
+    "url": "https://developers.google.com/google-ads/api/docs/demand-gen/create-campaign"
+  },
+  {
+    "path": "/google-ads/api/docs/demand-gen/overview",
+    "topic": "demand-gen",
+    "url": "https://developers.google.com/google-ads/api/docs/demand-gen/overview"
+  },
+  {
+    "path": "/google-ads/api/docs/demand-gen/product-ads",
+    "topic": "demand-gen",
+    "url": "https://developers.google.com/google-ads/api/docs/demand-gen/product-ads"
+  },
+  {
+    "path": "/google-ads/api/docs/demand-gen/reporting",
+    "topic": "demand-gen",
+    "url": "https://developers.google.com/google-ads/api/docs/demand-gen/reporting"
+  },
+  {
+    "path": "/google-ads/api/docs/developer-toolkit/ai-assistant",
+    "topic": "developer-toolkit",
+    "url": "https://developers.google.com/google-ads/api/docs/developer-toolkit/ai-assistant"
+  },
+  {
+    "path": "/google-ads/api/docs/developer-toolkit/api-explorer",
+    "topic": "developer-toolkit",
+    "url": "https://developers.google.com/google-ads/api/docs/developer-toolkit/api-explorer"
+  },
+  {
+    "path": "/google-ads/api/docs/developer-toolkit/gaa-query-builder",
+    "topic": "developer-toolkit",
+    "url": "https://developers.google.com/google-ads/api/docs/developer-toolkit/gaa-query-builder"
+  },
+  {
+    "path": "/google-ads/api/docs/developer-toolkit/gaa-query-validator",
+    "topic": "developer-toolkit",
+    "url": "https://developers.google.com/google-ads/api/docs/developer-toolkit/gaa-query-validator"
+  },
+  {
+    "path": "/google-ads/api/docs/developer-toolkit/mcp-server",
+    "topic": "developer-toolkit",
+    "url": "https://developers.google.com/google-ads/api/docs/developer-toolkit/mcp-server"
+  },
+  {
+    "path": "/google-ads/api/docs/developer-toolkit/what-is-developer-assistant",
+    "topic": "developer-toolkit",
+    "url": "https://developers.google.com/google-ads/api/docs/developer-toolkit/what-is-developer-assistant"
+  },
+  {
+    "path": "/google-ads/api/docs/display-upload-ads/create-display-upload-ad",
+    "topic": "display-upload-ads",
+    "url": "https://developers.google.com/google-ads/api/docs/display-upload-ads/create-display-upload-ad"
+  },
+  {
+    "path": "/google-ads/api/docs/display-upload-ads/html5-upload-ads",
+    "topic": "display-upload-ads",
+    "url": "https://developers.google.com/google-ads/api/docs/display-upload-ads/html5-upload-ads"
+  },
+  {
+    "path": "/google-ads/api/docs/display-upload-ads/overview",
+    "topic": "display-upload-ads",
+    "url": "https://developers.google.com/google-ads/api/docs/display-upload-ads/overview"
+  },
+  {
+    "path": "/google-ads/api/docs/dynamic-remarketing/asset-based",
+    "topic": "dynamic-remarketing",
+    "url": "https://developers.google.com/google-ads/api/docs/dynamic-remarketing/asset-based"
+  },
+  {
+    "path": "/google-ads/api/docs/dynamic-remarketing/merchant-center-example",
+    "topic": "dynamic-remarketing",
+    "url": "https://developers.google.com/google-ads/api/docs/dynamic-remarketing/merchant-center-example"
+  },
+  {
+    "path": "/google-ads/api/docs/dynamic-remarketing/overview",
+    "topic": "dynamic-remarketing",
+    "url": "https://developers.google.com/google-ads/api/docs/dynamic-remarketing/overview"
+  },
+  {
+    "path": "/google-ads/api/docs/dynamic-remarketing/prerequisites",
+    "topic": "dynamic-remarketing",
+    "url": "https://developers.google.com/google-ads/api/docs/dynamic-remarketing/prerequisites"
+  },
+  {
+    "path": "/google-ads/api/docs/dynamic-search-ads/create-dynamic-search-ads",
+    "topic": "dynamic-search-ads",
+    "url": "https://developers.google.com/google-ads/api/docs/dynamic-search-ads/create-dynamic-search-ads"
+  },
+  {
+    "path": "/google-ads/api/docs/dynamic-search-ads/dsa-page-feeds",
+    "topic": "dynamic-search-ads",
+    "url": "https://developers.google.com/google-ads/api/docs/dynamic-search-ads/dsa-page-feeds"
+  },
+  {
+    "path": "/google-ads/api/docs/dynamic-search-ads/overview",
+    "topic": "dynamic-search-ads",
+    "url": "https://developers.google.com/google-ads/api/docs/dynamic-search-ads/overview"
+  },
+  {
+    "path": "/google-ads/api/docs/dynamic-search-ads/reporting",
+    "topic": "dynamic-search-ads",
+    "url": "https://developers.google.com/google-ads/api/docs/dynamic-search-ads/reporting"
+  },
+  {
+    "path": "/google-ads/api/docs/experiments/async-errors",
+    "topic": "experiments",
+    "url": "https://developers.google.com/google-ads/api/docs/experiments/async-errors"
+  },
+  {
+    "path": "/google-ads/api/docs/experiments/experiment-arms",
+    "topic": "experiments",
+    "url": "https://developers.google.com/google-ads/api/docs/experiments/experiment-arms"
+  },
+  {
+    "path": "/google-ads/api/docs/experiments/experiment-operations",
+    "topic": "experiments",
+    "url": "https://developers.google.com/google-ads/api/docs/experiments/experiment-operations"
+  },
+  {
+    "path": "/google-ads/api/docs/experiments/experiments",
+    "topic": "experiments",
+    "url": "https://developers.google.com/google-ads/api/docs/experiments/experiments"
+  },
+  {
+    "path": "/google-ads/api/docs/experiments/overview",
+    "topic": "experiments",
+    "url": "https://developers.google.com/google-ads/api/docs/experiments/overview"
+  },
+  {
+    "path": "/google-ads/api/docs/experiments/reporting",
+    "topic": "experiments",
+    "url": "https://developers.google.com/google-ads/api/docs/experiments/reporting"
+  },
+  {
+    "path": "/google-ads/api/docs/generative-asset-creation/asset-generation",
+    "topic": "generative-asset-creation",
+    "url": "https://developers.google.com/google-ads/api/docs/generative-asset-creation/asset-generation"
+  },
+  {
+    "path": "/google-ads/api/docs/generative-asset-creation/asset-generation-code-examples",
+    "topic": "generative-asset-creation",
+    "url": "https://developers.google.com/google-ads/api/docs/generative-asset-creation/asset-generation-code-examples"
+  },
+  {
+    "path": "/google-ads/api/docs/generative-asset-creation/asset-generation-errors",
+    "topic": "generative-asset-creation",
+    "url": "https://developers.google.com/google-ads/api/docs/generative-asset-creation/asset-generation-errors"
+  },
+  {
+    "path": "/google-ads/api/docs/get-started/common-errors",
+    "topic": "get-started",
+    "url": "https://developers.google.com/google-ads/api/docs/get-started/common-errors"
+  },
+  {
+    "path": "/google-ads/api/docs/get-started/handle-errors",
+    "topic": "get-started",
+    "url": "https://developers.google.com/google-ads/api/docs/get-started/handle-errors"
+  },
+  {
+    "path": "/google-ads/api/docs/get-started/introduction",
+    "topic": "get-started",
+    "url": "https://developers.google.com/google-ads/api/docs/get-started/introduction"
+  },
+  {
+    "path": "/google-ads/api/docs/get-started/introduction?hl=ar",
+    "topic": "get-started",
+    "url": "https://developers.google.com/google-ads/api/docs/get-started/introduction?hl=ar"
+  },
+  {
+    "path": "/google-ads/api/docs/get-started/introduction?hl=bn",
+    "topic": "get-started",
+    "url": "https://developers.google.com/google-ads/api/docs/get-started/introduction?hl=bn"
+  },
+  {
+    "path": "/google-ads/api/docs/get-started/introduction?hl=de",
+    "topic": "get-started",
+    "url": "https://developers.google.com/google-ads/api/docs/get-started/introduction?hl=de"
+  },
+  {
+    "path": "/google-ads/api/docs/get-started/introduction?hl=en",
+    "topic": "get-started",
+    "url": "https://developers.google.com/google-ads/api/docs/get-started/introduction?hl=en"
+  },
+  {
+    "path": "/google-ads/api/docs/get-started/introduction?hl=es-419",
+    "topic": "get-started",
+    "url": "https://developers.google.com/google-ads/api/docs/get-started/introduction?hl=es-419"
+  },
+  {
+    "path": "/google-ads/api/docs/get-started/introduction?hl=fa",
+    "topic": "get-started",
+    "url": "https://developers.google.com/google-ads/api/docs/get-started/introduction?hl=fa"
+  },
+  {
+    "path": "/google-ads/api/docs/get-started/introduction?hl=fr",
+    "topic": "get-started",
+    "url": "https://developers.google.com/google-ads/api/docs/get-started/introduction?hl=fr"
+  },
+  {
+    "path": "/google-ads/api/docs/get-started/introduction?hl=he",
+    "topic": "get-started",
+    "url": "https://developers.google.com/google-ads/api/docs/get-started/introduction?hl=he"
+  },
+  {
+    "path": "/google-ads/api/docs/get-started/introduction?hl=hi",
+    "topic": "get-started",
+    "url": "https://developers.google.com/google-ads/api/docs/get-started/introduction?hl=hi"
+  },
+  {
+    "path": "/google-ads/api/docs/get-started/introduction?hl=id",
+    "topic": "get-started",
+    "url": "https://developers.google.com/google-ads/api/docs/get-started/introduction?hl=id"
+  },
+  {
+    "path": "/google-ads/api/docs/get-started/introduction?hl=it",
+    "topic": "get-started",
+    "url": "https://developers.google.com/google-ads/api/docs/get-started/introduction?hl=it"
+  },
+  {
+    "path": "/google-ads/api/docs/get-started/introduction?hl=ja",
+    "topic": "get-started",
+    "url": "https://developers.google.com/google-ads/api/docs/get-started/introduction?hl=ja"
+  },
+  {
+    "path": "/google-ads/api/docs/get-started/introduction?hl=ko",
+    "topic": "get-started",
+    "url": "https://developers.google.com/google-ads/api/docs/get-started/introduction?hl=ko"
+  },
+  {
+    "path": "/google-ads/api/docs/get-started/introduction?hl=pl",
+    "topic": "get-started",
+    "url": "https://developers.google.com/google-ads/api/docs/get-started/introduction?hl=pl"
+  },
+  {
+    "path": "/google-ads/api/docs/get-started/introduction?hl=pt-br",
+    "topic": "get-started",
+    "url": "https://developers.google.com/google-ads/api/docs/get-started/introduction?hl=pt-br"
+  },
+  {
+    "path": "/google-ads/api/docs/get-started/introduction?hl=ru",
+    "topic": "get-started",
+    "url": "https://developers.google.com/google-ads/api/docs/get-started/introduction?hl=ru"
+  },
+  {
+    "path": "/google-ads/api/docs/get-started/introduction?hl=th",
+    "topic": "get-started",
+    "url": "https://developers.google.com/google-ads/api/docs/get-started/introduction?hl=th"
+  },
+  {
+    "path": "/google-ads/api/docs/get-started/introduction?hl=tr",
+    "topic": "get-started",
+    "url": "https://developers.google.com/google-ads/api/docs/get-started/introduction?hl=tr"
+  },
+  {
+    "path": "/google-ads/api/docs/get-started/introduction?hl=vi",
+    "topic": "get-started",
+    "url": "https://developers.google.com/google-ads/api/docs/get-started/introduction?hl=vi"
+  },
+  {
+    "path": "/google-ads/api/docs/get-started/introduction?hl=zh-cn",
+    "topic": "get-started",
+    "url": "https://developers.google.com/google-ads/api/docs/get-started/introduction?hl=zh-cn"
+  },
+  {
+    "path": "/google-ads/api/docs/get-started/introduction?hl=zh-tw",
+    "topic": "get-started",
+    "url": "https://developers.google.com/google-ads/api/docs/get-started/introduction?hl=zh-tw"
+  },
+  {
+    "path": "/google-ads/api/docs/get-started/make-first-call",
+    "topic": "get-started",
+    "url": "https://developers.google.com/google-ads/api/docs/get-started/make-first-call"
+  },
+  {
+    "path": "/google-ads/api/docs/get-started/make-first-call?hl=pt-br",
+    "topic": "get-started",
+    "url": "https://developers.google.com/google-ads/api/docs/get-started/make-first-call?hl=pt-br"
+  },
+  {
+    "path": "/google-ads/api/docs/get-started/next-steps",
+    "topic": "get-started",
+    "url": "https://developers.google.com/google-ads/api/docs/get-started/next-steps"
+  },
+  {
+    "path": "/google-ads/api/docs/hotel-ads/bidding/assign-strategies",
+    "topic": "hotel-ads",
+    "url": "https://developers.google.com/google-ads/api/docs/hotel-ads/bidding/assign-strategies"
+  },
+  {
+    "path": "/google-ads/api/docs/hotel-ads/bidding/create-ad-group-bid-modifier",
+    "topic": "hotel-ads",
+    "url": "https://developers.google.com/google-ads/api/docs/hotel-ads/bidding/create-ad-group-bid-modifier"
+  },
+  {
+    "path": "/google-ads/api/docs/hotel-ads/bidding/overview",
+    "topic": "hotel-ads",
+    "url": "https://developers.google.com/google-ads/api/docs/hotel-ads/bidding/overview"
+  },
+  {
+    "path": "/google-ads/api/docs/hotel-ads/bidding/set-bids",
+    "topic": "hotel-ads",
+    "url": "https://developers.google.com/google-ads/api/docs/hotel-ads/bidding/set-bids"
+  },
+  {
+    "path": "/google-ads/api/docs/hotel-ads/create-ad-group",
+    "topic": "hotel-ads",
+    "url": "https://developers.google.com/google-ads/api/docs/hotel-ads/create-ad-group"
+  },
+  {
+    "path": "/google-ads/api/docs/hotel-ads/create-ad-group-ad",
+    "topic": "hotel-ads",
+    "url": "https://developers.google.com/google-ads/api/docs/hotel-ads/create-ad-group-ad"
+  },
+  {
+    "path": "/google-ads/api/docs/hotel-ads/create-campaign",
+    "topic": "hotel-ads",
+    "url": "https://developers.google.com/google-ads/api/docs/hotel-ads/create-campaign"
+  },
+  {
+    "path": "/google-ads/api/docs/hotel-ads/create-listing-groups",
+    "topic": "hotel-ads",
+    "url": "https://developers.google.com/google-ads/api/docs/hotel-ads/create-listing-groups"
+  },
+  {
+    "path": "/google-ads/api/docs/hotel-ads/overview",
+    "topic": "hotel-ads",
+    "url": "https://developers.google.com/google-ads/api/docs/hotel-ads/overview"
+  },
+  {
+    "path": "/google-ads/api/docs/hotel-ads/reporting",
+    "topic": "hotel-ads",
+    "url": "https://developers.google.com/google-ads/api/docs/hotel-ads/reporting"
+  },
+  {
+    "path": "/google-ads/api/docs/hotel-ads/travel-feeds",
+    "topic": "hotel-ads",
+    "url": "https://developers.google.com/google-ads/api/docs/hotel-ads/travel-feeds"
+  },
+  {
+    "path": "/google-ads/api/docs/insights/audience-insights",
+    "topic": "insights",
+    "url": "https://developers.google.com/google-ads/api/docs/insights/audience-insights"
+  },
+  {
+    "path": "/google-ads/api/docs/insights/creator-insights",
+    "topic": "insights",
+    "url": "https://developers.google.com/google-ads/api/docs/insights/creator-insights"
+  },
+  {
+    "path": "/google-ads/api/docs/insights/overview",
+    "topic": "insights",
+    "url": "https://developers.google.com/google-ads/api/docs/insights/overview"
+  },
+  {
+    "path": "/google-ads/api/docs/keyword-planning/generate-ad-group-themes",
+    "topic": "keyword-planning",
+    "url": "https://developers.google.com/google-ads/api/docs/keyword-planning/generate-ad-group-themes"
+  },
+  {
+    "path": "/google-ads/api/docs/keyword-planning/generate-forecast-metrics",
+    "topic": "keyword-planning",
+    "url": "https://developers.google.com/google-ads/api/docs/keyword-planning/generate-forecast-metrics"
+  },
+  {
+    "path": "/google-ads/api/docs/keyword-planning/generate-historical-metrics",
+    "topic": "keyword-planning",
+    "url": "https://developers.google.com/google-ads/api/docs/keyword-planning/generate-historical-metrics"
+  },
+  {
+    "path": "/google-ads/api/docs/keyword-planning/generate-keyword-ideas",
+    "topic": "keyword-planning",
+    "url": "https://developers.google.com/google-ads/api/docs/keyword-planning/generate-keyword-ideas"
+  },
+  {
+    "path": "/google-ads/api/docs/keyword-planning/overview",
+    "topic": "keyword-planning",
+    "url": "https://developers.google.com/google-ads/api/docs/keyword-planning/overview"
+  },
+  {
+    "path": "/google-ads/api/docs/mutating/best-practices",
+    "topic": "mutating",
+    "url": "https://developers.google.com/google-ads/api/docs/mutating/best-practices"
+  },
+  {
+    "path": "/google-ads/api/docs/mutating/bulk-mutate",
+    "topic": "mutating",
+    "url": "https://developers.google.com/google-ads/api/docs/mutating/bulk-mutate"
+  },
+  {
+    "path": "/google-ads/api/docs/mutating/overview",
+    "topic": "mutating",
+    "url": "https://developers.google.com/google-ads/api/docs/mutating/overview"
+  },
+  {
+    "path": "/google-ads/api/docs/mutating/service-mutates",
+    "topic": "mutating",
+    "url": "https://developers.google.com/google-ads/api/docs/mutating/service-mutates"
+  },
+  {
+    "path": "/google-ads/api/docs/oauth/2sv",
+    "topic": "oauth",
+    "url": "https://developers.google.com/google-ads/api/docs/oauth/2sv"
+  },
+  {
+    "path": "/google-ads/api/docs/oauth/access-model",
+    "topic": "oauth",
+    "url": "https://developers.google.com/google-ads/api/docs/oauth/access-model"
+  },
+  {
+    "path": "/google-ads/api/docs/oauth/cloud-project",
+    "topic": "oauth",
+    "url": "https://developers.google.com/google-ads/api/docs/oauth/cloud-project"
+  },
+  {
+    "path": "/google-ads/api/docs/oauth/credential-management",
+    "topic": "oauth",
+    "url": "https://developers.google.com/google-ads/api/docs/oauth/credential-management"
+  },
+  {
+    "path": "/google-ads/api/docs/oauth/internals",
+    "topic": "oauth",
+    "url": "https://developers.google.com/google-ads/api/docs/oauth/internals"
+  },
+  {
+    "path": "/google-ads/api/docs/oauth/multi-user-authentication",
+    "topic": "oauth",
+    "url": "https://developers.google.com/google-ads/api/docs/oauth/multi-user-authentication"
+  },
+  {
+    "path": "/google-ads/api/docs/oauth/overview",
+    "topic": "oauth",
+    "url": "https://developers.google.com/google-ads/api/docs/oauth/overview"
+  },
+  {
+    "path": "/google-ads/api/docs/oauth/service-accounts",
+    "topic": "oauth",
+    "url": "https://developers.google.com/google-ads/api/docs/oauth/service-accounts"
+  },
+  {
+    "path": "/google-ads/api/docs/oauth/single-user-authentication",
+    "topic": "oauth",
+    "url": "https://developers.google.com/google-ads/api/docs/oauth/single-user-authentication"
+  },
+  {
+    "path": "/google-ads/api/docs/oauth/user-authentication",
+    "topic": "oauth",
+    "url": "https://developers.google.com/google-ads/api/docs/oauth/user-authentication"
+  },
+  {
+    "path": "/google-ads/api/docs/policy-exemption/ads",
+    "topic": "policy-exemption",
+    "url": "https://developers.google.com/google-ads/api/docs/policy-exemption/ads"
+  },
+  {
+    "path": "/google-ads/api/docs/policy-exemption/keywords",
+    "topic": "policy-exemption",
+    "url": "https://developers.google.com/google-ads/api/docs/policy-exemption/keywords"
+  },
+  {
+    "path": "/google-ads/api/docs/policy-exemption/overview",
+    "topic": "policy-exemption",
+    "url": "https://developers.google.com/google-ads/api/docs/policy-exemption/overview"
+  },
+  {
+    "path": "/google-ads/api/docs/productionize/access-levels",
+    "topic": "productionize",
+    "url": "https://developers.google.com/google-ads/api/docs/productionize/access-levels"
+  },
+  {
+    "path": "/google-ads/api/docs/productionize/logging",
+    "topic": "productionize",
+    "url": "https://developers.google.com/google-ads/api/docs/productionize/logging"
+  },
+  {
+    "path": "/google-ads/api/docs/productionize/manage-data-efficiently",
+    "topic": "productionize",
+    "url": "https://developers.google.com/google-ads/api/docs/productionize/manage-data-efficiently"
+  },
+  {
+    "path": "/google-ads/api/docs/productionize/monitoring",
+    "topic": "productionize",
+    "url": "https://developers.google.com/google-ads/api/docs/productionize/monitoring"
+  },
+  {
+    "path": "/google-ads/api/docs/productionize/overview",
+    "topic": "productionize",
+    "url": "https://developers.google.com/google-ads/api/docs/productionize/overview"
+  },
+  {
+    "path": "/google-ads/api/docs/productionize/rate-limits",
+    "topic": "productionize",
+    "url": "https://developers.google.com/google-ads/api/docs/productionize/rate-limits"
+  },
+  {
+    "path": "/google-ads/api/docs/productionize/secure-credentials",
+    "topic": "productionize",
+    "url": "https://developers.google.com/google-ads/api/docs/productionize/secure-credentials"
+  },
+  {
+    "path": "/google-ads/api/docs/productionize/shared-aliases",
+    "topic": "productionize",
+    "url": "https://developers.google.com/google-ads/api/docs/productionize/shared-aliases"
+  },
+  {
+    "path": "/google-ads/api/docs/productionize/stay-updated",
+    "topic": "productionize",
+    "url": "https://developers.google.com/google-ads/api/docs/productionize/stay-updated"
+  },
+  {
+    "path": "/google-ads/api/docs/query/case-sensitivity",
+    "topic": "query",
+    "url": "https://developers.google.com/google-ads/api/docs/query/case-sensitivity"
+  },
+  {
+    "path": "/google-ads/api/docs/query/cookbook",
+    "topic": "query",
+    "url": "https://developers.google.com/google-ads/api/docs/query/cookbook"
+  },
+  {
+    "path": "/google-ads/api/docs/query/date-ranges",
+    "topic": "query",
+    "url": "https://developers.google.com/google-ads/api/docs/query/date-ranges"
+  },
+  {
+    "path": "/google-ads/api/docs/query/grammar",
+    "topic": "query",
+    "url": "https://developers.google.com/google-ads/api/docs/query/grammar"
+  },
+  {
+    "path": "/google-ads/api/docs/query/ordering-limiting",
+    "topic": "query",
+    "url": "https://developers.google.com/google-ads/api/docs/query/ordering-limiting"
+  },
+  {
+    "path": "/google-ads/api/docs/query/overview",
+    "topic": "query",
+    "url": "https://developers.google.com/google-ads/api/docs/query/overview"
+  },
+  {
+    "path": "/google-ads/api/docs/query/structure",
+    "topic": "query",
+    "url": "https://developers.google.com/google-ads/api/docs/query/structure"
+  },
+  {
+    "path": "/google-ads/api/docs/reach-forecasting",
+    "topic": "reach-forecasting",
+    "url": "https://developers.google.com/google-ads/api/docs/reach-forecasting"
+  },
+  {
+    "path": "/google-ads/api/docs/reach-forecasting/authentication",
+    "topic": "reach-forecasting",
+    "url": "https://developers.google.com/google-ads/api/docs/reach-forecasting/authentication"
+  },
+  {
+    "path": "/google-ads/api/docs/reach-forecasting/concepts",
+    "topic": "reach-forecasting",
+    "url": "https://developers.google.com/google-ads/api/docs/reach-forecasting/concepts"
+  },
+  {
+    "path": "/google-ads/api/docs/reach-forecasting/generate-curve",
+    "topic": "reach-forecasting",
+    "url": "https://developers.google.com/google-ads/api/docs/reach-forecasting/generate-curve"
+  },
+  {
+    "path": "/google-ads/api/docs/reach-forecasting/media-plan",
+    "topic": "reach-forecasting",
+    "url": "https://developers.google.com/google-ads/api/docs/reach-forecasting/media-plan"
+  },
+  {
+    "path": "/google-ads/api/docs/recommendations",
+    "topic": "recommendations",
+    "url": "https://developers.google.com/google-ads/api/docs/recommendations"
+  },
+  {
+    "path": "/google-ads/api/docs/release-notes",
+    "topic": "release-notes",
+    "url": "https://developers.google.com/google-ads/api/docs/release-notes"
+  },
+  {
+    "path": "/google-ads/api/docs/remarketing/audience-segments/custom-audiences",
+    "topic": "remarketing",
+    "url": "https://developers.google.com/google-ads/api/docs/remarketing/audience-segments/custom-audiences"
+  },
+  {
+    "path": "/google-ads/api/docs/remarketing/audience-segments/customer-match/get-started",
+    "topic": "remarketing",
+    "url": "https://developers.google.com/google-ads/api/docs/remarketing/audience-segments/customer-match/get-started"
+  },
+  {
+    "path": "/google-ads/api/docs/remarketing/audience-segments/customer-match/manage",
+    "topic": "remarketing",
+    "url": "https://developers.google.com/google-ads/api/docs/remarketing/audience-segments/customer-match/manage"
+  },
+  {
+    "path": "/google-ads/api/docs/remarketing/audience-segments/customer-match/troubleshoot",
+    "topic": "remarketing",
+    "url": "https://developers.google.com/google-ads/api/docs/remarketing/audience-segments/customer-match/troubleshoot"
+  },
+  {
+    "path": "/google-ads/api/docs/remarketing/audience-segments/getting-started",
+    "topic": "remarketing",
+    "url": "https://developers.google.com/google-ads/api/docs/remarketing/audience-segments/getting-started"
+  },
+  {
+    "path": "/google-ads/api/docs/remarketing/audience-segments/lookalike-audiences",
+    "topic": "remarketing",
+    "url": "https://developers.google.com/google-ads/api/docs/remarketing/audience-segments/lookalike-audiences"
+  },
+  {
+    "path": "/google-ads/api/docs/remarketing/audience-segments/multiple-user-lists",
+    "topic": "remarketing",
+    "url": "https://developers.google.com/google-ads/api/docs/remarketing/audience-segments/multiple-user-lists"
+  },
+  {
+    "path": "/google-ads/api/docs/remarketing/audience-segments/scenario/create-user-list",
+    "topic": "remarketing",
+    "url": "https://developers.google.com/google-ads/api/docs/remarketing/audience-segments/scenario/create-user-list"
+  },
+  {
+    "path": "/google-ads/api/docs/remarketing/audience-segments/scenario/overview",
+    "topic": "remarketing",
+    "url": "https://developers.google.com/google-ads/api/docs/remarketing/audience-segments/scenario/overview"
+  },
+  {
+    "path": "/google-ads/api/docs/remarketing/audience-segments/scenario/rule-item-groups",
+    "topic": "remarketing",
+    "url": "https://developers.google.com/google-ads/api/docs/remarketing/audience-segments/scenario/rule-item-groups"
+  },
+  {
+    "path": "/google-ads/api/docs/remarketing/audience-segments/took-specific-actions",
+    "topic": "remarketing",
+    "url": "https://developers.google.com/google-ads/api/docs/remarketing/audience-segments/took-specific-actions"
+  },
+  {
+    "path": "/google-ads/api/docs/remarketing/audience-segments/visited-specific-pages",
+    "topic": "remarketing",
+    "url": "https://developers.google.com/google-ads/api/docs/remarketing/audience-segments/visited-specific-pages"
+  },
+  {
+    "path": "/google-ads/api/docs/remarketing/audience-segments/website-visitors",
+    "topic": "remarketing",
+    "url": "https://developers.google.com/google-ads/api/docs/remarketing/audience-segments/website-visitors"
+  },
+  {
+    "path": "/google-ads/api/docs/remarketing/audiences",
+    "topic": "remarketing",
+    "url": "https://developers.google.com/google-ads/api/docs/remarketing/audiences"
+  },
+  {
+    "path": "/google-ads/api/docs/remarketing/overview",
+    "topic": "remarketing",
+    "url": "https://developers.google.com/google-ads/api/docs/remarketing/overview"
+  },
+  {
+    "path": "/google-ads/api/docs/reporting/criteria-metrics",
+    "topic": "reporting",
+    "url": "https://developers.google.com/google-ads/api/docs/reporting/criteria-metrics"
+  },
+  {
+    "path": "/google-ads/api/docs/reporting/example",
+    "topic": "reporting",
+    "url": "https://developers.google.com/google-ads/api/docs/reporting/example"
+  },
+  {
+    "path": "/google-ads/api/docs/reporting/labels",
+    "topic": "reporting",
+    "url": "https://developers.google.com/google-ads/api/docs/reporting/labels"
+  },
+  {
+    "path": "/google-ads/api/docs/reporting/overview",
+    "topic": "reporting",
+    "url": "https://developers.google.com/google-ads/api/docs/reporting/overview"
+  },
+  {
+    "path": "/google-ads/api/docs/reporting/paging",
+    "topic": "reporting",
+    "url": "https://developers.google.com/google-ads/api/docs/reporting/paging"
+  },
+  {
+    "path": "/google-ads/api/docs/reporting/segmentation",
+    "topic": "reporting",
+    "url": "https://developers.google.com/google-ads/api/docs/reporting/segmentation"
+  },
+  {
+    "path": "/google-ads/api/docs/reporting/streaming",
+    "topic": "reporting",
+    "url": "https://developers.google.com/google-ads/api/docs/reporting/streaming"
+  },
+  {
+    "path": "/google-ads/api/docs/reporting/uireports",
+    "topic": "reporting",
+    "url": "https://developers.google.com/google-ads/api/docs/reporting/uireports"
+  },
+  {
+    "path": "/google-ads/api/docs/reporting/valuetrack-mapping",
+    "topic": "reporting",
+    "url": "https://developers.google.com/google-ads/api/docs/reporting/valuetrack-mapping"
+  },
+  {
+    "path": "/google-ads/api/docs/reporting/zero-metrics",
+    "topic": "reporting",
+    "url": "https://developers.google.com/google-ads/api/docs/reporting/zero-metrics"
+  },
+  {
+    "path": "/google-ads/api/docs/responsive-display-ads/create-responsive-display-ads",
+    "topic": "responsive-display-ads",
+    "url": "https://developers.google.com/google-ads/api/docs/responsive-display-ads/create-responsive-display-ads"
+  },
+  {
+    "path": "/google-ads/api/docs/responsive-display-ads/get-responsive-display-ads",
+    "topic": "responsive-display-ads",
+    "url": "https://developers.google.com/google-ads/api/docs/responsive-display-ads/get-responsive-display-ads"
+  },
+  {
+    "path": "/google-ads/api/docs/responsive-display-ads/overview",
+    "topic": "responsive-display-ads",
+    "url": "https://developers.google.com/google-ads/api/docs/responsive-display-ads/overview"
+  },
+  {
+    "path": "/google-ads/api/docs/responsive-search-ads/create-responsive-search-ads",
+    "topic": "responsive-search-ads",
+    "url": "https://developers.google.com/google-ads/api/docs/responsive-search-ads/create-responsive-search-ads"
+  },
+  {
+    "path": "/google-ads/api/docs/responsive-search-ads/get-responsive-search-ads",
+    "topic": "responsive-search-ads",
+    "url": "https://developers.google.com/google-ads/api/docs/responsive-search-ads/get-responsive-search-ads"
+  },
+  {
+    "path": "/google-ads/api/docs/responsive-search-ads/overview",
+    "topic": "responsive-search-ads",
+    "url": "https://developers.google.com/google-ads/api/docs/responsive-search-ads/overview"
+  },
+  {
+    "path": "/google-ads/api/docs/shopping-ads/create-ad-group",
+    "topic": "shopping-ads",
+    "url": "https://developers.google.com/google-ads/api/docs/shopping-ads/create-ad-group"
+  },
+  {
+    "path": "/google-ads/api/docs/shopping-ads/create-ad-group-ad",
+    "topic": "shopping-ads",
+    "url": "https://developers.google.com/google-ads/api/docs/shopping-ads/create-ad-group-ad"
+  },
+  {
+    "path": "/google-ads/api/docs/shopping-ads/create-campaign",
+    "topic": "shopping-ads",
+    "url": "https://developers.google.com/google-ads/api/docs/shopping-ads/create-campaign"
+  },
+  {
+    "path": "/google-ads/api/docs/shopping-ads/create-listing-groups",
+    "topic": "shopping-ads",
+    "url": "https://developers.google.com/google-ads/api/docs/shopping-ads/create-listing-groups"
+  },
+  {
+    "path": "/google-ads/api/docs/shopping-ads/merchant-center",
+    "topic": "shopping-ads",
+    "url": "https://developers.google.com/google-ads/api/docs/shopping-ads/merchant-center"
+  },
+  {
+    "path": "/google-ads/api/docs/shopping-ads/overview",
+    "topic": "shopping-ads",
+    "url": "https://developers.google.com/google-ads/api/docs/shopping-ads/overview"
+  },
+  {
+    "path": "/google-ads/api/docs/shopping-ads/reporting",
+    "topic": "shopping-ads",
+    "url": "https://developers.google.com/google-ads/api/docs/shopping-ads/reporting"
+  },
+  {
+    "path": "/google-ads/api/docs/smart-campaigns/create-ad-group-and-ad",
+    "topic": "smart-campaigns",
+    "url": "https://developers.google.com/google-ads/api/docs/smart-campaigns/create-ad-group-and-ad"
+  },
+  {
+    "path": "/google-ads/api/docs/smart-campaigns/create-budget",
+    "topic": "smart-campaigns",
+    "url": "https://developers.google.com/google-ads/api/docs/smart-campaigns/create-budget"
+  },
+  {
+    "path": "/google-ads/api/docs/smart-campaigns/create-campaign",
+    "topic": "smart-campaigns",
+    "url": "https://developers.google.com/google-ads/api/docs/smart-campaigns/create-campaign"
+  },
+  {
+    "path": "/google-ads/api/docs/smart-campaigns/create-campaign-criteria",
+    "topic": "smart-campaigns",
+    "url": "https://developers.google.com/google-ads/api/docs/smart-campaigns/create-campaign-criteria"
+  },
+  {
+    "path": "/google-ads/api/docs/smart-campaigns/get-suggestions",
+    "topic": "smart-campaigns",
+    "url": "https://developers.google.com/google-ads/api/docs/smart-campaigns/get-suggestions"
+  },
+  {
+    "path": "/google-ads/api/docs/smart-campaigns/mutate-request",
+    "topic": "smart-campaigns",
+    "url": "https://developers.google.com/google-ads/api/docs/smart-campaigns/mutate-request"
+  },
+  {
+    "path": "/google-ads/api/docs/smart-campaigns/overview",
+    "topic": "smart-campaigns",
+    "url": "https://developers.google.com/google-ads/api/docs/smart-campaigns/overview"
+  },
+  {
+    "path": "/google-ads/api/docs/smart-campaigns/reporting",
+    "topic": "smart-campaigns",
+    "url": "https://developers.google.com/google-ads/api/docs/smart-campaigns/reporting"
+  },
+  {
+    "path": "/google-ads/api/docs/targeting/bid-modifiers",
+    "topic": "targeting",
+    "url": "https://developers.google.com/google-ads/api/docs/targeting/bid-modifiers"
+  },
+  {
+    "path": "/google-ads/api/docs/targeting/criteria",
+    "topic": "targeting",
+    "url": "https://developers.google.com/google-ads/api/docs/targeting/criteria"
+  },
+  {
+    "path": "/google-ads/api/docs/targeting/location-targeting",
+    "topic": "targeting",
+    "url": "https://developers.google.com/google-ads/api/docs/targeting/location-targeting"
+  },
+  {
+    "path": "/google-ads/api/docs/targeting/overview",
+    "topic": "targeting",
+    "url": "https://developers.google.com/google-ads/api/docs/targeting/overview"
+  },
+  {
+    "path": "/google-ads/api/docs/targeting/shared-sets",
+    "topic": "targeting",
+    "url": "https://developers.google.com/google-ads/api/docs/targeting/shared-sets"
+  },
+  {
+    "path": "/google-ads/api/docs/targeting/targeting-settings",
+    "topic": "targeting",
+    "url": "https://developers.google.com/google-ads/api/docs/targeting/targeting-settings"
+  },
+  {
+    "path": "/google-ads/api/docs/things-to-do-ads/create-ad-group",
+    "topic": "things-to-do-ads",
+    "url": "https://developers.google.com/google-ads/api/docs/things-to-do-ads/create-ad-group"
+  },
+  {
+    "path": "/google-ads/api/docs/things-to-do-ads/create-ad-group-ad",
+    "topic": "things-to-do-ads",
+    "url": "https://developers.google.com/google-ads/api/docs/things-to-do-ads/create-ad-group-ad"
+  },
+  {
+    "path": "/google-ads/api/docs/things-to-do-ads/create-campaign",
+    "topic": "things-to-do-ads",
+    "url": "https://developers.google.com/google-ads/api/docs/things-to-do-ads/create-campaign"
+  },
+  {
+    "path": "/google-ads/api/docs/things-to-do-ads/create-listing-groups",
+    "topic": "things-to-do-ads",
+    "url": "https://developers.google.com/google-ads/api/docs/things-to-do-ads/create-listing-groups"
+  },
+  {
+    "path": "/google-ads/api/docs/things-to-do-ads/overview",
+    "topic": "things-to-do-ads",
+    "url": "https://developers.google.com/google-ads/api/docs/things-to-do-ads/overview"
+  },
+  {
+    "path": "/google-ads/api/docs/things-to-do-ads/reporting",
+    "topic": "things-to-do-ads",
+    "url": "https://developers.google.com/google-ads/api/docs/things-to-do-ads/reporting"
+  },
+  {
+    "path": "/google-ads/api/docs/upgrade",
+    "topic": "upgrade",
+    "url": "https://developers.google.com/google-ads/api/docs/upgrade"
+  },
+  {
+    "path": "/google-ads/api/docs/upgrade?hl=pt-br",
+    "topic": "upgrade?hl=pt-br",
+    "url": "https://developers.google.com/google-ads/api/docs/upgrade?hl=pt-br"
+  },
+  {
+    "path": "/google-ads/api/docs/video/overview",
+    "topic": "video",
+    "url": "https://developers.google.com/google-ads/api/docs/video/overview"
+  }
+]

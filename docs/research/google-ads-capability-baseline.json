@@ -1,0 +1,178 @@
+{
+  "generated_at": "2026-03-31",
+  "sources": {
+    "docs_home": "https://developers.google.com/google-ads/api/docs/start",
+    "discovery_v22": "https://googleads.googleapis.com/$discovery/rest?version=v22",
+    "rpc_reference_v22": "https://developers.google.com/google-ads/api/reference/rpc/v22/overview",
+    "rest_auth": "https://developers.google.com/google-ads/api/rest/auth",
+    "fields_reference": "https://developers.google.com/google-ads/api/fields/v22/overview",
+    "developer_toolkit_mcp": "https://developers.google.com/google-ads/api/docs/developer-toolkit/mcp-server"
+  },
+  "api": {
+    "version": "v22",
+    "total_methods": 162,
+    "coverage_threshold_90pct": 146,
+    "http_method_counts": {
+      "POST": 150,
+      "GET": 11,
+      "DELETE": 1
+    },
+    "method_family_counts": {
+      "mutate": 78,
+      "create": 5,
+      "list": 3,
+      "remove": 3,
+      "get": 2,
+      "search": 2,
+      "run": 2,
+      "update": 2,
+      "addOperations": 2,
+      "suggest": 2,
+      "singleton": 61
+    },
+    "practical_surfaces": {
+      "read_query_methods": 19,
+      "write_workflow_methods": 143
+    },
+    "recommended_raw_cli_scope": "Expose every discovery method through gads api invoke",
+    "typed_shortcut_exclusions": [
+      "enablePMaxBrandGuidelines",
+      "getIdentityVerification",
+      "searchAudienceInsightsAttributes"
+    ],
+    "coverage_formula": "coverage_ratio = reachable_discovery_methods / 162; pass if coverage_ratio >= 0.90"
+  },
+  "docs": {
+    "page_total": 269,
+    "skill_map": [
+      {
+        "skill": "google-ads-auth",
+        "docs_range": [
+          "api-policy",
+          "oauth",
+          "client-libs",
+          "get-started",
+          "concepts"
+        ],
+        "page_count": 25
+      },
+      {
+        "skill": "google-ads-query",
+        "docs_range": [
+          "query",
+          "reporting",
+          "change-event",
+          "change-status"
+        ],
+        "page_count": 19
+      },
+      {
+        "skill": "google-ads-mutate",
+        "docs_range": [
+          "mutating",
+          "batch-processing"
+        ],
+        "page_count": 9
+      },
+      {
+        "skill": "google-ads-campaigns",
+        "docs_range": [
+          "campaigns",
+          "app-campaigns",
+          "smart-campaigns",
+          "demand-gen",
+          "responsive-search-ads",
+          "responsive-display-ads",
+          "shopping-ads",
+          "dynamic-search-ads",
+          "dynamic-remarketing",
+          "campaign-drafts",
+          "ads",
+          "video"
+        ],
+        "page_count": 77
+      },
+      {
+        "skill": "google-ads-experiments",
+        "docs_range": [
+          "experiments"
+        ],
+        "page_count": 6
+      },
+      {
+        "skill": "google-ads-conversions",
+        "docs_range": [
+          "conversions",
+          "billing",
+          "bid-simulations",
+          "reach-forecasting"
+        ],
+        "page_count": 30
+      },
+      {
+        "skill": "google-ads-assets",
+        "docs_range": [
+          "assets",
+          "display-upload-ads",
+          "generative-asset-creation"
+        ],
+        "page_count": 14
+      },
+      {
+        "skill": "google-ads-account-management",
+        "docs_range": [
+          "account-management"
+        ],
+        "page_count": 10
+      },
+      {
+        "skill": "google-ads-planning",
+        "docs_range": [
+          "keyword-planning",
+          "targeting",
+          "insights",
+          "developer-toolkit"
+        ],
+        "page_count": 20
+      },
+      {
+        "skill": "google-ads-productionize",
+        "docs_range": [
+          "productionize",
+          "release-notes",
+          "upgrade"
+        ],
+        "page_count": 11
+      },
+      {
+        "skill": "google-ads-troubleshooting",
+        "docs_range": [
+          "best-practices",
+          "policy-exemption"
+        ],
+        "page_count": 15
+      },
+      {
+        "skill": "google-ads-remarketing",
+        "docs_range": [
+          "remarketing"
+        ],
+        "page_count": 15
+      },
+      {
+        "skill": "google-ads-verticals",
+        "docs_range": [
+          "hotel-ads",
+          "things-to-do-ads",
+          "recommendations"
+        ],
+        "page_count": 18
+      }
+    ]
+  },
+  "assumptions": [
+    "The CLI should expose every discovery method through a raw invoke path even when it is not a first-wave shortcut.",
+    "The 90% coverage metric is measured on discovery methods, not docs pages.",
+    "Non-API docs belong in skills/ and not in the raw API surface."
+  ]
+}
