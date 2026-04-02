@@ -6,10 +6,21 @@ import { join } from 'node:path';
 import { Command } from 'commander';
 
 import { syncGoogleAdsCatalog } from '../../spec/src/index.js';
-import { buildGoogleAdsRequest } from '../../core/src/index.js';
+import {
+  buildGoogleAdsAuthUrl,
+  buildGoogleAdsRequest,
+  getDefaultGoogleAdsConfigPath,
+  getGoogleAdsProfile,
+  refreshGoogleAdsAccessToken,
+  upsertGoogleAdsProfile
+} from '../../core/src/index.js';
 
 import type { DocsCatalogEntry, SyncedGoogleAdsCatalog } from '../../spec/src/index.js';
-import type { OperationDescriptor } from '../../core/src/index.js';
+import type {
+  GoogleAdsProfile as StoredGoogleAdsProfile,
+  OAuthFetch,
+  OperationDescriptor
+} from '../../core/src/index.js';
 
 export interface SkillManifestEntry {
   name: string;
@@ -24,6 +35,7 @@ export interface CliDependencies {
   loadOperationsCatalog?: (path: string) => Promise<OperationDescriptor[]>;
   loadDocsCatalog?: (path: string) => Promise<DocsCatalogEntry[]>;
   loadSkillsManifest?: (path: string) => Promise<SkillManifestEntry[]>;
+  oauthFetch?: OAuthFetch;
   stdout?: Pick<NodeJS.WriteStream, 'write'>;
 }
 
@@ -58,10 +70,20 @@ export async function runCli(
     dependencies.loadSkillsManifest ??
     (async (path: string) =>
       (JSON.parse(await readFile(path, 'utf8')) as { skills: SkillManifestEntry[] }).skills);
+  const oauthFetch = dependencies.oauthFetch ?? fetch;
 
   const writeJson = (value: unknown): void => {
     stdout.write(`${JSON.stringify(value, null, 2)}\n`);
   };
+
+  const resolveConfigPath = (configPath?: string): string =>
+    configPath ?? getDefaultGoogleAdsConfigPath();
+
+  const loadProfile = async (options: {
+    config?: string;
+    profile?: string;
+  }): Promise<StoredGoogleAdsProfile> =>
+    getGoogleAdsProfile(resolveConfigPath(options.config), options.profile ?? 'default');
 
   const resolveOperation = async (
     catalogPath: string,
@@ -115,6 +137,95 @@ export async function runCli(
   };
 
   program.name('gads');
+
+  const auth = program.command('auth').description('Manage Google Ads OAuth profiles');
+
+  auth
+    .command('init')
+    .option('--config <path>', 'Path to the YAML config file')
+    .option('--profile <name>', 'Profile name', 'default')
+    .option('--api-version <version>', 'Google Ads API version', 'v22')
+    .requiredOption('--developer-token <token>', 'Google Ads developer token')
+    .requiredOption('--client-id <id>', 'Google OAuth client id')
+    .requiredOption('--client-secret <secret>', 'Google OAuth client secret')
+    .option('--refresh-token <token>', 'OAuth refresh token')
+    .option('--default-customer-id <id>', 'Default customer id for customer-scoped operations')
+    .option('--login-customer-id <id>', 'Manager account id')
+    .option('--linked-customer-id <id>', 'Linked customer id')
+    .action(
+      async (options: {
+        apiVersion: string;
+        clientId: string;
+        clientSecret: string;
+        config?: string;
+        defaultCustomerId?: string;
+        developerToken: string;
+        linkedCustomerId?: string;
+        loginCustomerId?: string;
+        profile: string;
+        refreshToken?: string;
+      }) => {
+        await upsertGoogleAdsProfile(resolveConfigPath(options.config), options.profile, {
+          api_version: options.apiVersion,
+          client_id: options.clientId,
+          client_secret: options.clientSecret,
+          developer_token: options.developerToken,
+          ...(options.refreshToken ? { refresh_token: options.refreshToken } : {}),
+          ...(options.defaultCustomerId
+            ? { default_customer_id: options.defaultCustomerId }
+            : {}),
+          ...(options.loginCustomerId ? { login_customer_id: options.loginCustomerId } : {}),
+          ...(options.linkedCustomerId ? { linked_customer_id: options.linkedCustomerId } : {})
+        });
+      }
+    );
+
+  auth
+    .command('url')
+    .option('--config <path>', 'Path to the YAML config file')
+    .option('--profile <name>', 'Profile name', 'default')
+    .requiredOption('--redirect-uri <uri>', 'OAuth redirect URI')
+    .option('--state <value>', 'Opaque OAuth state value')
+    .action(
+      async (options: {
+        config?: string;
+        profile: string;
+        redirectUri: string;
+        state?: string;
+      }) => {
+        const profile = await loadProfile(options);
+        stdout.write(
+          `${buildGoogleAdsAuthUrl({
+            clientId: profile.client_id,
+            redirectUri: options.redirectUri,
+            ...(options.state ? { state: options.state } : {})
+          })}\n`
+        );
+      }
+    );
+
+  auth
+    .command('token')
+    .option('--config <path>', 'Path to the YAML config file')
+    .option('--profile <name>', 'Profile name', 'default')
+    .action(async (options: { config?: string; profile: string }) => {
+      const profile = await loadProfile(options);
+
+      if (!profile.refresh_token) {
+        throw new Error(`Profile ${options.profile} is missing refresh_token`);
+      }
+
+      writeJson(
+        await refreshGoogleAdsAccessToken(
+          {
+            clientId: profile.client_id,
+            clientSecret: profile.client_secret,
+            refreshToken: profile.refresh_token
+          },
+          oauthFetch
+        )
+      );
+    });
 
   const docs = program
     .command('docs')
@@ -200,6 +311,8 @@ export async function runCli(
     .command('invoke')
     .argument('<operationId>', 'Discovery operation id such as customers.campaigns.mutate')
     .requiredOption('--catalog <path>', 'Path to operations.json generated by docs sync')
+    .option('--config <path>', 'Path to the YAML config file')
+    .option('--profile <name>', 'Stored profile name')
     .option('--access-token <token>', 'OAuth access token')
     .option('--developer-token <token>', 'Google Ads developer token')
     .option('--login-customer-id <id>', 'Manager account acting on behalf of the target account')
@@ -217,15 +330,18 @@ export async function runCli(
           body?: string;
           bodyFile?: string;
           catalog: string;
+          config?: string;
           customerId?: string;
           developerToken?: string;
           dryRun?: boolean;
           linkedCustomerId?: string;
           loginCustomerId?: string;
           pathParam?: string[];
+          profile?: string;
         }
       ) => {
         const operation = await resolveOperation(options.catalog, operationId);
+        const profile = options.profile ? await loadProfile(options) : undefined;
 
         const pathParams = Object.fromEntries(
           (options.pathParam ?? []).map((pair) => {
@@ -239,8 +355,8 @@ export async function runCli(
           })
         );
 
-        if (options.customerId) {
-          pathParams.customerId = options.customerId;
+        if (options.customerId ?? profile?.default_customer_id) {
+          pathParams.customerId = options.customerId ?? profile?.default_customer_id ?? '';
         }
 
         const payload =
@@ -249,12 +365,26 @@ export async function runCli(
             : options.bodyFile
               ? JSON.parse(await readFile(options.bodyFile, 'utf8'))
               : undefined;
+        const accessToken =
+          options.accessToken ??
+          (profile?.refresh_token
+            ? (
+                await refreshGoogleAdsAccessToken(
+                  {
+                    clientId: profile.client_id,
+                    clientSecret: profile.client_secret,
+                    refreshToken: profile.refresh_token
+                  },
+                  oauthFetch
+                )
+              ).access_token
+            : undefined);
         await executeOrDryRun({
-          accessToken: options.accessToken,
-          developerToken: options.developerToken,
+          accessToken,
+          developerToken: options.developerToken ?? profile?.developer_token,
           dryRun: options.dryRun,
-          linkedCustomerId: options.linkedCustomerId,
-          loginCustomerId: options.loginCustomerId,
+          linkedCustomerId: options.linkedCustomerId ?? profile?.linked_customer_id,
+          loginCustomerId: options.loginCustomerId ?? profile?.login_customer_id,
           operation,
           pathParams,
           payload
